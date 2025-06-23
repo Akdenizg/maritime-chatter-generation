@@ -132,6 +132,8 @@ These high-quality, SMCP-compliant, and category-specific seed chatters:
 
 This method is adapted to generate a large, diverse, and realistic set of maritime distress call training instances.
 
+![Methodology](./images/Methodology.png)
+
 ### Context Generation
 
 For each synthetic instance:
