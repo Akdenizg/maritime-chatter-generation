@@ -1,0 +1,12 @@
+{
+    "reporting_fire": ["fire", "explosion"],
+    "reporting_flooding": ["flood", "taking on water", "taken on water", "took on water"],
+    "reporting_collision": ["collide", "collision"],
+    "reporting_grounding": ["grounding", "grounded", "aground"],
+    "reporting_list-danger_of_capsizing": ["list", "capsiz"],
+    "reporting_sinking": ["sink"],
+    "reporting_attack": ["attack", "armed", "pirate", "armament", "weapon", "gun"],
+    "reporting_person_overboard": ["overboard", "over board", "fell", "fall"],
+    "reporting_drift": ["disabled", "drift"],
+    "reporting_undesignated_distress": ["fire", "explosion", "flood", "taking on water", "taken on water", "took on water", "grounding", "grounded", "aground", "sink", "attack", "armed", "pirate", "armament", "weapon", "gun", "overboard", "over board", "list", "capsiz"]
+}
