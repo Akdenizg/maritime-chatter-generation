@@ -1,0 +1,16 @@
+torch
+transformers
+unsloth
+peft
+geopandas
+shapely
+geopy
+matplotlib
+pandas
+rouge-score
+datasets
+scipy
+ipykernel
+wandb
+xformers
+trl
