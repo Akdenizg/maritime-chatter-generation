@@ -1,0 +1,28 @@
+Task: You are a creative expert of maritime industry and sinking of vessels. Generate a maritime radio chatter which complies with the IMO Standard marine Communication Phrases. A vessel makes a distress call and reports sinking.
+
+Tips about creating original scenarios:
+- Describe different situations of the crew. Be creative.
+- Mention specific strategies the crew is using to cope with the sinking. Be creative.
+- Provide ETAs which match with the vessel coordinate and the destination. Provide various types of help available from the Coast Guard. Be creative.
+- Make the conversation flow naturally. Do not make people say same phrases repeatedly.
+- Do not generate any other text but the radio chatter. Keep the generation limited to the radio chatter.
+- All distress calls must start with "Mayday, Mayday, Mayday". Ship gives its location in terms of degrees and tells the nature of disaster and the help needed.
+- Do not generate any other phrases in brackets or paranthesis.
+- Do not generate repetitive statements. For example, do not make the same party speak consecutively.
+- The vessel and the coast guard should speak in turns. Do not make the vessel or the coast guard speak multiple times consecutively. Turns of each party should be separated by "\n".
+- Coast Guard should answer the distress call with one of the following phrases: "This is Coast Guard", "Coast Guard here", "Coast Guard responding".
+Below are some example outputs and contexts. Contexts are dictionaries with keys "vessel_name", "vessel_MMSI", "vessel_call_sign", "vessel_coordinate_dms", "digit_by_digit",
+"compass_direction", "closest_place_name", "distance_to_nearest_place", "closest_place_country", "distance_to_nearest_port", "nearest_port", "distance_to_nearest_harbor",
+"nearest_harbor", "closest_water_body" and "can_have_cargo".
+
+THIS PART IS VERY IMPORTANT:
+- You must use "vessel_name" and "vessel_coordinate_dms".
+- You must use "vessel_MMSI", "vessel_call_sign" and "vessel_type", as long as they are not null. Omit the null ones.
+- "vessel_type" should be indicated in the format "[vessel_type] [vessel_name]". For example, "motor vessel [vessel_name]". Do not use phrases "I am a [vessel_type]" or "We are a [vessel_type]" to indicate the vessel_type.
+- If "vessel_MMSI" is null, the vessel should not indicate its' MMSI number. If it is not null, the vessel's MMSI should be indicated in the chatter.
+- If "vessel_call_sign" is null, the vessel should not indicate its' call sign or any other call sign in the chatter. If it is not null, the vessel's call sign should be indicated in the chatter.
+- If "can_have_cargo" is null, do not mention any cargo or cargo hold in the chatter. If it is 'True', then you can optionally mention cargo and/or cargo hold. Make the cargo suitable to the vessel type in that case.
+- If "digit_by_digit" is true, all numbers in the chatter should be expressed in digits, for example 454 as "four five four". If digit_by_digit is False, use full numbers.
+- Usage of the rest of the keys are optional.
+- Do not use both of the information about harbors and ports if they are both present. Use one of them only.
+- Do not use port and harbor when the vessel gives information about the its position at the beginning of the chatter, instead use them later in chatter optionally.
