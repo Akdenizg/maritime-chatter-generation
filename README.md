@@ -55,7 +55,7 @@ Below is the recommended order. In each script, **edit the file paths and parame
    - *Output*: Synthetic chatters in `experiments/{task_name}`.
 
 3. **lora_finetune.ipynb**  
-   - *Purpose*: Fine-tune Llama 3.1 8B using LoRA.
+   - *Purpose*: Fine-tune Llama 3.1 8B using LoRA. Modification of the unsloth colab notebook.
    - *Edit*: `model_dir` (base LLM), `chatter_path` (from step 2), `task_name`, hyperparameters.
    - *Run order*: After `generate_instances.py`.
    - *Output*: LoRA adapters in `models/{task_name}`.
