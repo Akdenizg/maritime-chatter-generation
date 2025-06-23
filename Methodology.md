@@ -1,12 +1,10 @@
 # Methodology
 
-# 4. Methodology
-
 This chapter details the methodology for generating and evaluating realistic maritime radio distress calls using Large Language Models (LLMs). The approach adapts the Self-Instruct method to the maritime domain and uses parameter-efficient fine-tuning (LoRA, prompt tuning) to optimize Llama 3.1 8B for this task. All steps are specified for reproducibility.
 
 ---
 
-## 4.1 Datasets
+## 1) Datasets
 
 Multiple open-source datasets were used to generate realistic scenarios and context:
 
@@ -58,7 +56,7 @@ Remove special characters and bracketed content from names.
 
 ---
 
-## 4.2 Data Preprocessing
+## 2) Data Preprocessing
 
 **Vessel Data**:
 - Extract vessel name, type, MMSI, call sign
@@ -72,17 +70,69 @@ Remove special characters and bracketed content from names.
 
 ---
 
-## 4.3 LLM Used in the Study
+## 3) LLM Used in the Study
 
 Llama 3.1 8B is used in the project. Any model supported by the unsloth library can be used for LoRA.
 
 ---
 
-## 4.4 Self-Instruct for Maritime Distress Call Training Dataset Generation
+## 4) Seed Chatters and SMCP Categories
+
+The seed chatters are the foundation of the synthetic dataset. They are **manually created examples** that strictly comply with the IMO Standard Marine Communication Phrases (SMCP) Handbook.
+
+### SMCP-Based Categories
+
+Each seed chatter is assigned to one of **ten principal maritime distress categories** derived from the SMCP. These categories ensure coverage of the full range of SMCP maritime distress scenarios:
+
+| SMCP Category             | Example Instruction                                                  |
+|---------------------------|---------------------------------------------------------------------|
+| Fire, Explosion           | Generate a maritime radio chatter. A vessel makes a distress call and reports a fire. |
+| Flooding                  | Generate a maritime radio chatter. A vessel makes a distress call and reports flooding. |
+| Collision                 | Generate a maritime radio chatter. A vessel makes a distress call and reports collision. |
+| Grounding                 | Generate a maritime radio chatter. A vessel makes a distress call and reports grounding. |
+| List, Danger of Capsizing | Generate a maritime radio chatter. A vessel makes a distress call and reports list-danger of capsizing. |
+| Sinking                   | Generate a maritime radio chatter. A vessel makes a distress call and reports sinking. |
+| Disabled, Adrift          | Generate a maritime radio chatter. A vessel makes a distress call and reports being disabled and adrift. |
+| Armed Attack, Piracy      | Generate a maritime radio chatter. A vessel makes a distress call and reports armed attack/piracy. |
+| Undesignated Distress     | Generate a maritime radio chatter. A vessel makes a distress call and reports an undesignated distress. |
+| Person Overboard          | Generate a maritime radio chatter. A vessel makes a distress call and reports person overboard. |
+
+### Use of SMCP Handbook Phrases
+
+All seed chatters are **composed using the standard phraseology and structure from the SMCP handbook**. This means:
+- Each chatter starts with “Mayday, Mayday, Mayday” as required.
+- Compulsory information (vessel name, coordinates, distress type, etc.) is included in the order and format specified by SMCP.
+- All radio exchanges use turn-taking and clarity as set by the SMCP, including the prescribed wording for Coast Guard and vessel responses.
+
+### Realism and Coverage
+
+- Each SMCP category contains **ten unique seed chatters**, for a total of 100 seed instances.
+- Whenever applicable, **phrases from related SMCP categories are also included** to reflect real-life maritime communication, e.g., a “Sinking” chatter may reference a previous “Collision.”
+- Seed chatters utilize vessel names and locations from real data sources, further grounding them in actual maritime context.
+
+### Example:
+
+> **Instruction:** Generate a maritime radio chatter. A vessel makes a distress call and reports a fire.
+>
+> **Chatter:**  
+> "Mayday, Mayday, Mayday. This is cargo vessel COSCO KAOHSIUNG. I am located at three eight degrees three seven minutes North, one degrees three two point one five minutes East, five nautical miles south east of Isla de Formentera. I am on fire. Requesting fire fighting assistance immediately. Over."  
+> "COSCO KAOHSIUNG, this is Coast Guard. Can you please provide information about the extent and the location of the fire? Over."  
+> ...
+
+### Purpose
+
+These high-quality, SMCP-compliant, and category-specific seed chatters:
+- Serve as the **primary exemplars** in the Self-Instruct pipeline,
+- Anchor the generated dataset in **real-world maritime protocols**,
+- Guide the LLM to produce outputs that are both **regulation-compliant and diverse**.
+
+---
+
+## 5) Self-Instruct for Maritime Distress Call Training Dataset Generation
 
 This method is adapted to generate a large, diverse, and realistic set of maritime distress call training instances.
 
-### 4.4.1 Context Generation
+### Context Generation
 
 For each synthetic instance:
 - **Random Coordinate Generation**: Generate random maritime coordinates (lat/lon), check against GSHHG to ensure not on land. Exclude Antarctica.
@@ -128,7 +178,7 @@ degrees West" ],
 "closest_water_body_long": [ null ],
 "closest_water_body_distance": null
 
-### 4.4.2 Instance Generation
+### Instance Generation
 
 - **Prompt Construction**: LLM is prompted with category-specific instructions, requirements for valid distress calls, and 5 randomly selected example instances (3 seed, 2 synthetic) for diversity.
 - **Prompt Example**:
@@ -143,7 +193,7 @@ degrees West" ],
 
 - **Generation Process**: For each new context, generate a single new distress call for the context.
 
-### 4.4.3 Filtering
+### Filtering
 
 Instances generated in the previous step are subjected to numerous filters. Instances failing any filter are rejected. This process continues until 500 valid instances per category are collected.
 Here is a comprehensive overview of all filters used in the synthetic maritime distress call generation:
@@ -158,7 +208,7 @@ Here is a comprehensive overview of all filters used in the synthetic maritime d
 | Duplicate Sentences          | Rejects if any sentence longer than three words is repeated in the call.                               |
 | No Coast Guard               | Rejects if the Coast Guard does not respond immediately in the conversation.                           |
 | Digit by Digit               | If context flag is true, all numbers must be spoken digit by digit (e.g., "four five four").           |
-| Wrong Category               | Ensures disaster category matches; checks for required keywords (see thesis Table 4.10).               |
+| Wrong Category               | Ensures disaster category matches; checks for required keywords               |
 | Unknown Information          | Rejects if phrases like "MMSI unknown" or "call sign None" are generated when these are null in context.|
 | Vessel Name                  | Vessel name in context must appear in the distress call.                                               |
 | Vessel MMSI                  | MMSI must be used if not null in context; must not appear if null.                                     |
@@ -179,7 +229,7 @@ Here is a comprehensive overview of all filters used in the synthetic maritime d
 | Uniqueness                   | ROUGE-L similarity < 0.7 to any existing instance in pool; ensures originality.                        |
 ---
 
-## 4.5 Fine-tuning the LLM with LoRA
+## 5) Fine-tuning the LLM with LoRA
 
 **Low-Rank Adaptation (LoRA)** is used for parameter-efficient fine-tuning:
 - LoRA adapters injected into all transformer layers (WQ, WV)
@@ -202,7 +252,7 @@ Here is a comprehensive overview of all filters used in the synthetic maritime d
 
 ---
 
-## 4.6 Prompt Tuning the LLM
+## 6) Prompt Tuning the LLM
 
 **Prompt tuning** optimizes a set of virtual tokens prepended to the prompt for each category:
 - Model weights frozen; only virtual tokens (819,200 params, 0.01%) are trained
@@ -230,7 +280,7 @@ Maritime Radio Chatter:
 plaintext
 ---
 
-## 4.7 Evaluation of Distress Calls Generated by the Fine-tuned Adapters
+## 7) Evaluation of Distress Calls Generated by the Fine-tuned Adapters
 
 **Four evaluation metrics**:
 
@@ -266,7 +316,7 @@ plaintext
 
 **Score Calculation:**
 
-## Correctness of the Format & Information Accuracy
+## Correctness of the Format and Information Accuracy
 
 Let
 - \( S \): a synthetic instance,
@@ -277,38 +327,22 @@ Let
 
 **Score formula:**
 
-![Format Accuracy and Information Accuracy Formulas](screenshot.png)
+![Format Accuracy and Information Accuracy Formulas](images/Score_Formula.png)
 
 ---
 
 ## Uniqueness
 
-The uniqueness of a generated maritime distress call \( C \) is computed as:
+The uniqueness metric evaluates how different a generated maritime distress call  is from all existing calls in the training dataset. For each generated call, the ROUGE-L similarity score between the generated call and every call in the training set is computed. The highest similarity (i.e., the closest match) is used to determine the uniqueness.
 
-\[
-\boxed{
-\text{Uniqueness}(C) =
-\begin{cases}
-1 - \mathrm{ROUGE\text{-}L}(C, C') & \text{if } \mathrm{ROUGE\text{-}L}(C, C') \leq 0.7 \\
-0 & \text{otherwise}
-\end{cases}
-}
-\]
-
-where
-
-- \( C \) is the generated call,
-- \( C' \) is the most similar call in the training dataset,
-- \( \mathrm{ROUGE\text{-}L}(C, C') \) denotes the ROUGE-L similarity between \( C \) and \( C' \).
-
-If the ROUGE-L similarity exceeds 0.7, the instance is considered not unique and receives a score of 0.
+If the ROUGE-L similarity exceeds 0.7, the instance is considered not unique and receives a score of 0, otherwise the score is 1 - ROUGE-L similarity. 
 
 
-**Evaluation Dataset:** 100 synthetic instances per category are generated and evaluated. All filters, metrics, and coefficients are documented (see thesis Tables 4.17–4.19).
+**Evaluation Dataset:** 100 synthetic instances per category are generated and evaluated.
 
 ---
 
-## 4.9 Limitations
+## 8) Limitations
 
 - Quality limited by source datasets (vessel info, GeoNames)
 - No Coast Guard station data; assumed reachable if ≤ 60 NM from land
