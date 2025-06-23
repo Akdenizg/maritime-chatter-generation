@@ -1,0 +1,462 @@
+[
+    {
+        "ship_name": "AVOCET",
+        "ship_MMSI": null,
+        "ship_call_sign": "Whisky Delta Golf two two seven seven",
+        "ship_type": "Anti-Pollution Vessel",
+        "ship_coordinate_lat": 5.028301609859412,
+        "ship_coordinate_long": 119.78835821572352,
+        "ship_coordinate_dms": [
+            "five degrees one minutes North",
+            "one hundred nineteen degrees forty-seven minutes East"
+        ],
+        "nearest_land_point_lat": 5.032,
+        "nearest_land_point_long": 119.78835821572352,
+        "distance_to_nearest_land": "zero",
+        "compass_direction": "south west",
+        "closest_place_name": "Pababag",
+        "closest_place_lat": 5.03167,
+        "closest_place_long": 119.79222,
+        "closest_place_feature_code": "PPL",
+        "distance_to_nearest_place": "zero",
+        "closest_place_country": "Philippines",
+        "distance_to_nearest_port": "twenty-three",
+        "nearest_port": "Port Languyan",
+        "nearest_port_coordinates": [
+            5.2644,
+            120.0818
+        ],
+        "distance_to_nearest_harbor": "ninety-four",
+        "nearest_harbor": "Pelabuhan Silam",
+        "nearest_harbor_coordinates": [
+            4.94954,
+            118.22724
+        ],
+        "digit_by_digit": false,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Aguada Bay"
+        ],
+        "closest_water_body_lat": [
+            5.01667
+        ],
+        "closest_water_body_long": [
+            119.78333
+        ],
+        "closest_water_body_distance": 0.7569754905038827
+    },
+    {
+        "ship_name": "HILLI",
+        "ship_MMSI": null,
+        "ship_call_sign": null,
+        "ship_type": null,
+        "ship_coordinate_lat": 58.95567667845086,
+        "ship_coordinate_long": -78.49519250315538,
+        "ship_coordinate_dms": [
+            "five eight degrees North",
+            "seven eight degrees West"
+        ],
+        "nearest_land_point_lat": 58.956111,
+        "nearest_land_point_long": -78.494917,
+        "distance_to_nearest_land": "zero",
+        "compass_direction": "north east",
+        "closest_place_name": "Île Ujarasujjulik",
+        "closest_place_lat": 58.95051,
+        "closest_place_long": -78.53275,
+        "closest_place_feature_code": "ISL",
+        "distance_to_nearest_place": "one",
+        "closest_place_country": "Canada",
+        "distance_to_nearest_port": "two two two",
+        "nearest_port": "Deception Bay Port",
+        "nearest_port_coordinates": [
+            62.11883,
+            -74.63151
+        ],
+        "distance_to_nearest_harbor": "eight",
+        "nearest_harbor": "Alle Harbour",
+        "nearest_harbor_coordinates": [
+            58.81721,
+            -78.54948
+        ],
+        "digit_by_digit": true,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            null
+        ],
+        "closest_water_body_lat": [
+            null
+        ],
+        "closest_water_body_long": [
+            null
+        ],
+        "closest_water_body_distance": null
+    },
+    {
+        "ship_name": "CUTTER BOAT-LARGE",
+        "ship_MMSI": null,
+        "ship_call_sign": null,
+        "ship_type": "Search and Rescue Vessel",
+        "ship_coordinate_lat": 45.25701555707455,
+        "ship_coordinate_long": 141.5891872307767,
+        "ship_coordinate_dms": [
+            "four five degrees North",
+            "one four one degrees East"
+        ],
+        "nearest_land_point_lat": 45.25623285010568,
+        "nearest_land_point_long": 141.5899734286336,
+        "distance_to_nearest_land": "zero",
+        "compass_direction": "south west",
+        "closest_place_name": "Hamayūchi",
+        "closest_place_lat": 45.26418,
+        "closest_place_long": 141.6045,
+        "closest_place_feature_code": "PPL",
+        "distance_to_nearest_place": "one",
+        "closest_place_country": "Japan",
+        "distance_to_nearest_port": "one one",
+        "nearest_port": "Ebisu Fishing Port",
+        "nearest_port_coordinates": [
+            45.43736,
+            141.66375
+        ],
+        "distance_to_nearest_harbor": "three",
+        "nearest_harbor": "Bakkai Gyokō",
+        "nearest_harbor_coordinates": [
+            45.30911,
+            141.61332
+        ],
+        "digit_by_digit": true,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Sakanoshita Wan"
+        ],
+        "closest_water_body_lat": [
+            45.35
+        ],
+        "closest_water_body_long": [
+            141.63333
+        ],
+        "closest_water_body_distance": 5.884767396195286
+    },
+    {
+        "ship_name": "ORCA",
+        "ship_MMSI": null,
+        "ship_call_sign": null,
+        "ship_type": "Motor Vessel",
+        "ship_coordinate_lat": 72.77434672186422,
+        "ship_coordinate_long": -110.20845112097443,
+        "ship_coordinate_dms": [
+            "seventy-two degrees four six point four six minutes North",
+            "one hundred ten degrees one two point five one minutes West"
+        ],
+        "nearest_land_point_lat": 72.763278,
+        "nearest_land_point_long": -110.191306,
+        "distance_to_nearest_land": "one",
+        "compass_direction": "south west",
+        "closest_place_name": "Natkusiak Peninsula",
+        "closest_place_lat": 72.86429,
+        "closest_place_long": -110.04318,
+        "closest_place_feature_code": "PEN",
+        "distance_to_nearest_place": "six",
+        "closest_place_country": "Canada",
+        "distance_to_nearest_port": "1017",
+        "nearest_port": "Deception Bay Port",
+        "nearest_port_coordinates": [
+            62.11883,
+            -74.63151
+        ],
+        "distance_to_nearest_harbor": "one hundred",
+        "nearest_harbor": "Knight Harbour",
+        "nearest_harbor_coordinates": [
+            73.51048,
+            -115.30735
+        ],
+        "digit_by_digit": false,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            null
+        ],
+        "closest_water_body_lat": [
+            null
+        ],
+        "closest_water_body_long": [
+            null
+        ],
+        "closest_water_body_distance": null
+    },
+    {
+        "ship_name": "KINGFISHER",
+        "ship_MMSI": null,
+        "ship_call_sign": null,
+        "ship_type": "Sailing Vessel",
+        "ship_coordinate_lat": 58.13290226334806,
+        "ship_coordinate_long": 22.123223491831936,
+        "ship_coordinate_dms": [
+            "fifty-eight degrees North",
+            "twenty-two degrees East"
+        ],
+        "nearest_land_point_lat": 58.139972,
+        "nearest_land_point_long": 22.142528,
+        "distance_to_nearest_land": "one",
+        "compass_direction": "south west",
+        "closest_place_name": "Kriimi",
+        "closest_place_lat": 58.13806,
+        "closest_place_long": 22.15778,
+        "closest_place_feature_code": "ISL",
+        "distance_to_nearest_place": "one",
+        "closest_place_country": "Estonia",
+        "distance_to_nearest_port": "thirteen",
+        "nearest_port": "Atla Sadam",
+        "nearest_port_coordinates": [
+            58.30204,
+            21.89361
+        ],
+        "distance_to_nearest_harbor": "five",
+        "nearest_harbor": "Läätsa Sadam",
+        "nearest_harbor_coordinates": [
+            58.14556,
+            22.26611
+        ],
+        "digit_by_digit": false,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Ariste Laht"
+        ],
+        "closest_water_body_lat": [
+            58.14222
+        ],
+        "closest_water_body_long": [
+            22.19417
+        ],
+        "closest_water_body_distance": 2.3251083081227124
+    },
+    {
+        "ship_name": "K SEVEN",
+        "ship_MMSI": null,
+        "ship_call_sign": null,
+        "ship_type": null,
+        "ship_coordinate_lat": 59.14377520150212,
+        "ship_coordinate_long": -151.7494908544624,
+        "ship_coordinate_dms": [
+            "fifty-nine degrees eight minutes North",
+            "one hundred fifty-one degrees four four decimal nine seven minutes West"
+        ],
+        "nearest_land_point_lat": 59.15710576347452,
+        "nearest_land_point_long": -151.74388129573768,
+        "distance_to_nearest_land": "one",
+        "compass_direction": "south east",
+        "closest_place_name": "Elizabeth Island",
+        "closest_place_lat": 59.15694,
+        "closest_place_long": -151.82917,
+        "closest_place_feature_code": "ISL",
+        "distance_to_nearest_place": "three",
+        "closest_place_country": "United States",
+        "distance_to_nearest_port": "five hundred seventy-six",
+        "nearest_port": "Beaver Inlet Sea Port",
+        "nearest_port_coordinates": [
+            53.8199,
+            -166.21171
+        ],
+        "distance_to_nearest_harbor": "seventy-eight",
+        "nearest_harbor": "Low Island Anchorage",
+        "nearest_harbor_coordinates": [
+            57.91528,
+            -152.5725
+        ],
+        "digit_by_digit": false,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Chrome Bay"
+        ],
+        "closest_water_body_lat": [
+            59.21028
+        ],
+        "closest_water_body_long": [
+            -151.81361
+        ],
+        "closest_water_body_distance": 4.463325606466374
+    },
+    {
+        "ship_name": "KEY WEST EXPRESS",
+        "ship_MMSI": "three six seven zero nine eight three four zero",
+        "ship_call_sign": "Whisky Delta Charlie nine one five eight",
+        "ship_type": "Motor Vessel",
+        "ship_coordinate_lat": 50.29878413173377,
+        "ship_coordinate_long": 143.81998560704426,
+        "ship_coordinate_dms": [
+            "fifty degrees North",
+            "one hundred forty-three degrees East"
+        ],
+        "nearest_land_point_lat": 50.298306,
+        "nearest_land_point_long": 143.807472,
+        "distance_to_nearest_land": "zero",
+        "compass_direction": "south east",
+        "closest_place_name": "Pogranichnoye",
+        "closest_place_lat": 50.37842,
+        "closest_place_long": 143.75081,
+        "closest_place_feature_code": "PPL",
+        "distance_to_nearest_place": "five",
+        "closest_place_country": "Russia",
+        "distance_to_nearest_port": "seventy",
+        "nearest_port": "Poronaysk",
+        "nearest_port_coordinates": [
+            49.21667,
+            143.13333
+        ],
+        "distance_to_nearest_harbor": "one hundred fifty-seven",
+        "nearest_harbor": "Zaliv Sovetskaya Gavan’",
+        "nearest_harbor_coordinates": [
+            49.02136,
+            140.30698
+        ],
+        "digit_by_digit": false,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Sea of Okhotsk"
+        ],
+        "closest_water_body_lat": [
+            55.0
+        ],
+        "closest_water_body_long": [
+            150.0
+        ],
+        "closest_water_body_distance": 361.3743821151014
+    },
+    {
+        "ship_name": "CARPE DIEM",
+        "ship_MMSI": "two one one three seven zero three eight zero",
+        "ship_call_sign": null,
+        "ship_type": null,
+        "ship_coordinate_lat": 77.39406188639794,
+        "ship_coordinate_long": -117.34084894519955,
+        "ship_coordinate_dms": [
+            "seven seven degrees two three minutes North",
+            "one one seven degrees two zero point four five minutes West"
+        ],
+        "nearest_land_point_lat": 77.38883732945254,
+        "nearest_land_point_long": -117.34176580988613,
+        "distance_to_nearest_land": "zero",
+        "compass_direction": "south west",
+        "closest_place_name": "Cape Krabbe",
+        "closest_place_lat": 77.4952,
+        "closest_place_long": -116.02936,
+        "closest_place_feature_code": "CAPE",
+        "distance_to_nearest_place": "one eight",
+        "closest_place_country": "Canada",
+        "distance_to_nearest_port": "one two two zero",
+        "nearest_port": "Pevek",
+        "nearest_port_coordinates": [
+            69.71667,
+            170.3
+        ],
+        "distance_to_nearest_harbor": "one one nine",
+        "nearest_harbor": "Murray Harbour",
+        "nearest_harbor_coordinates": [
+            76.82518,
+            -108.87137
+        ],
+        "digit_by_digit": true,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Satellite Bay"
+        ],
+        "closest_water_body_lat": [
+            77.3934
+        ],
+        "closest_water_body_long": [
+            -117.27493
+        ],
+        "closest_water_body_distance": 0.8684452360731991
+    },
+    {
+        "ship_name": "TINCHEN",
+        "ship_MMSI": null,
+        "ship_call_sign": "Delta Charlie six one nine nine",
+        "ship_type": "Motor Vessel",
+        "ship_coordinate_lat": 66.75081343281622,
+        "ship_coordinate_long": 34.03849565643873,
+        "ship_coordinate_dms": [
+            "six six degrees four five minutes North",
+            "three four degrees two decimal three one minutes East"
+        ],
+        "nearest_land_point_lat": 66.75508542916431,
+        "nearest_land_point_long": 34.036517490642076,
+        "distance_to_nearest_land": "zero",
+        "compass_direction": "south east",
+        "closest_place_name": "Novaya Zhizn'",
+        "closest_place_lat": 66.75139,
+        "closest_place_long": 34.02389,
+        "closest_place_feature_code": "PPL",
+        "distance_to_nearest_place": "zero",
+        "closest_place_country": "Russia",
+        "distance_to_nearest_port": "nine",
+        "nearest_port": "Bolshaya Piryu Guba",
+        "nearest_port_coordinates": [
+            66.66667,
+            34.36667
+        ],
+        "distance_to_nearest_harbor": "one four nine",
+        "nearest_harbor": "Yekaterininskaya Gavan’",
+        "nearest_harbor_coordinates": [
+            69.2084,
+            33.45294
+        ],
+        "digit_by_digit": true,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            null
+        ],
+        "closest_water_body_lat": [
+            null
+        ],
+        "closest_water_body_long": [
+            null
+        ],
+        "closest_water_body_distance": null
+    },
+    {
+        "ship_name": "ANCORA",
+        "ship_MMSI": null,
+        "ship_call_sign": null,
+        "ship_type": "Motor Vessel",
+        "ship_coordinate_lat": -8.726006406248821,
+        "ship_coordinate_long": 115.25173602658015,
+        "ship_coordinate_dms": [
+            "eight degrees four three point five six minutes South",
+            "one hundred fifteen degrees fifteen minutes East"
+        ],
+        "nearest_land_point_lat": -8.726006406248821,
+        "nearest_land_point_long": 115.237889,
+        "distance_to_nearest_land": "one",
+        "compass_direction": "south east",
+        "closest_place_name": "Kawan",
+        "closest_place_lat": -8.7239,
+        "closest_place_long": 115.2381,
+        "closest_place_feature_code": "PPL",
+        "distance_to_nearest_place": "one",
+        "closest_place_country": "Indonesia",
+        "distance_to_nearest_port": "fifty-nine",
+        "nearest_port": "Pelabuhan Gilimanuk",
+        "nearest_port_coordinates": [
+            -8.1617,
+            114.4363
+        ],
+        "distance_to_nearest_harbor": "three",
+        "nearest_harbor": "Pelabuhan Benoa",
+        "nearest_harbor_coordinates": [
+            -8.74335,
+            115.20912
+        ],
+        "digit_by_digit": false,
+        "can_have_cargo": null,
+        "closest_water_body": [
+            "Teluk Lebangan"
+        ],
+        "closest_water_body_lat": [
+            -8.7408
+        ],
+        "closest_water_body_long": [
+            115.2304
+        ],
+        "closest_water_body_distance": 1.545165583972782
+    }
+]
