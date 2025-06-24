@@ -10,6 +10,7 @@ pandas
 rouge-score
 datasets
 scipy
+tqdm
 ipykernel
 wandb
 xformers
