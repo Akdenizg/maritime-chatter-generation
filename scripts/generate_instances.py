@@ -1,17 +1,15 @@
 import os
 from matplotlib import pyplot as plt
 from unsloth import FastLanguageModel
-import torch
 import json
 import random
 import datetime
-import pandas as pd
 import geo_test
 import re
 import time
 
 from rouge_score import rouge_scorer
-from transformers import AutoTokenizer, StoppingCriteria, StoppingCriteriaList
+from transformers import StoppingCriteria, StoppingCriteriaList
 
 class StopOnPhrase(StoppingCriteria):
     def __init__(self, tokenizer, stop_phrase):
@@ -199,8 +197,8 @@ class DatasetCreator:
             'both_port_and_harbor': [],
         }
         if self.task_name == "reporting_collision":
-            rejected_results["hallucinated_collided_vessel_name"] = []
-            rejected_results["hallucinated_collided_vessel_type"] = []
+            rejected_results["collided_vessel_name"] = []
+            rejected_results["collided_vessel_type"] = []
 
         keywords = self.read_json(self.keywords_path)
         
@@ -310,7 +308,7 @@ class DatasetCreator:
             keys_to_check = ["vessel_name", "vessel_MMSI", "vessel_call_sign", "vessel_type", "vessel_coordinate_dms"]
             
             if self.task_name == "reporting_collision":
-                keys_to_check + ["collided_vessel_name", "collided_vessel_type"]
+                keys_to_check += ["collided_vessel_name", "collided_vessel_type"]
 
             # Initialize a list to store keys whose values are not in the string
             missing_keys = []
@@ -452,7 +450,7 @@ class DatasetCreator:
             vessel_types.extend(['Motor Vessel'])
             vessel_types.remove('Other')
             vessel_types.remove(scenario_input['vessel_type'])
-            if self.task_name == "reporting_collision":
+            if self.task_name == "reporting_collision" and scenario_input["collided_vessel_type"] and scenario_input['vessel_type'] != scenario_input["collided_vessel_type"]:
                 vessel_types.remove(scenario_input["collided_vessel_type"])
             if any(elem in sentences[1].replace(scenario_input['vessel_name'], "").lower() for elem in [vessel_type.lower() for vessel_type in vessel_types]) \
                 or any(phrase in result.lower() for phrase in ["we are a ", "i am a "]):

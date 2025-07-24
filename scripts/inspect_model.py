@@ -230,6 +230,10 @@ class ModelInspection:
 
         # Vessel Information Filters
         keys_to_check = ["vessel_name", "vessel_MMSI", "vessel_call_sign", "vessel_type", "vessel_coordinate_dms"]
+
+        if task_name == "reporting_collision":
+            keys_to_check += ["collided_vessel_name", "collided_vessel_type"]
+
         for key in keys_to_check:
             value = scenario_input[key]
             if not value:
@@ -283,8 +287,12 @@ class ModelInspection:
         if "Ship".lower() not in scenario_input["vessel_type"].lower():
             vessel_types.extend(['Ship'])
         vessel_types.extend(['Motor Vessel'])
-        vessel_types = [vt for vt in vessel_types if vt != 'Other']
-        vessel_types = [vt for vt in vessel_types if vt.lower() != scenario_input['vessel_type'].lower()]
+        vessel_types.remove('Other')
+        vessel_types.remove(scenario_input['vessel_type'])
+
+        if task_name == "reporting_collision" and scenario_input["collided_vessel_type"] and scenario_input['vessel_type'] != scenario_input["collided_vessel_type"]:
+            vessel_types.remove(scenario_input["collided_vessel_type"])
+
         if any(elem in sentences[1].replace(scenario_input['vessel_name'], "").lower() for elem in [vessel_type.lower() for vessel_type in vessel_types]) \
             or any(phrase in output.lower() for phrase in ["we are a ", "i am a "]):
             passed_filters['hallucinated_vessel_type'] = False
@@ -656,6 +664,7 @@ class ModelInspection:
         plt.xlabel("ROUGE-L Score")
         plt.ylabel("Number of Chatters")
         plt.legend(loc='upper right')  # Add legend
+        plt.grid(True, linestyle='--', alpha=0.6)
         plt.savefig(os.path.join(dir_path, f"rouge_l_histogram_seed_{current_time}.png"))
         plt.savefig(os.path.join(dir_path, f"rouge_l_histogram_seed_{current_time}.pdf"))
         plt.show()
@@ -670,6 +679,7 @@ class ModelInspection:
         plt.xlabel("ROUGE-L Score")
         plt.ylabel("Number of Chatters")
         plt.legend(loc='upper right')  # Add legend
+        plt.grid(True, linestyle='--', alpha=0.6)
         plt.savefig(os.path.join(dir_path, f"rouge_l_histogram_training_{current_time}.png"))
         plt.savefig(os.path.join(dir_path, f"rouge_l_histogram_training_{current_time}.pdf"))
         plt.show()
