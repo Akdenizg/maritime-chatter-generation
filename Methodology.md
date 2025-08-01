@@ -8,12 +8,12 @@ This chapter details the methodology for generating and evaluating realistic mar
 
 Multiple open-source datasets were used to generate realistic scenarios and context:
 
-| Dataset Name                      | Source/Range/Version            | Fields Used                             | Notes                                          |
-|------------------------------------|----------------------------------|-----------------------------------------|------------------------------------------------|
-| GSHHG                             | L1, full resolution              | Polygon coordinates (land/sea)          | Distinguish land/sea; excludes Antarctica      |
-| GeoNames                          | Downloaded 10/2024               | Name, lat/lon, feature code, country    | For nearest land features, ports, water bodies |
-| Marine Cadastre AIS Data           | 01.01.2023–30.06.2024           | Vessel name, type, MMSI, call sign      | Vessel type mapping, deduplication, cleaning   |
-| Danish Maritime Authority AIS Data | 26.07.2024–14.02.2025           | Vessel name, type, MMSI, call sign      | Type mapping to Marine Cadastre schema         |
+| Dataset Name                                                                    | Source/Range/Version             | Fields Used                             | Notes                                          |
+|---------------------------------------------------------------------------------|----------------------------------|-----------------------------------------|------------------------------------------------|
+| [GSHHG](https://www.soest.hawaii.edu/pwessel/gshhg/)                            | L1, full resolution              | Polygon coordinates (land/sea)          | Distinguish land/sea; excludes Antarctica      |
+| [GeoNames](https://www.geonames.org/)                                           | Downloaded 10/2024               | Name, lat/lon, feature code, country    | For nearest land features, ports, water bodies |
+| [Marine Cadastre AIS Data](https://hub.marinecadastre.gov/pages/vesseltraffic)  | 01.01.2023–30.06.2024            | Vessel name, type, MMSI, call sign      | Vessel type mapping, deduplication, cleaning   |
+| [Danish Maritime Authority AIS Data](http://aisdata.ais.dk/)                    | 26.07.2024–14.02.2025            | Vessel name, type, MMSI, call sign      | Type mapping to Marine Cadastre schema         |
 
 **Vessel Data Preprocessing**:
 - Remove vessels with missing names or “NO NAME”
