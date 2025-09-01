@@ -1,0 +1,293 @@
+[
+    {
+        "input": {
+            "vessel_name": "UWE",
+            "vessel_MMSI": "two one one four six zero six nine zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "ten degrees North, ninety-nine degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Ko Hang Tao",
+            "distance_to_nearest_place": "thirteen",
+            "closest_place_country": "Thailand",
+            "distance_to_nearest_port": "one hundred sixty-eight",
+            "nearest_port": "Sattahip",
+            "distance_to_nearest_harbor": "sixty-three",
+            "nearest_harbor": "Victoria Point Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel UWE. Our location is ten degrees North, ninety-nine degrees East. We are adrift and in distress. We need help. Our MMSI is two one one four six zero six nine zero. This is our call sign. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel UWE. Our location is ten degrees North, ninety-nine degrees East. We are adrift and in distress. We need help. Our MMSI is two one one four six zero six nine zero. This is our call sign. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are a Motor Vessel. We are"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SEHOME",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "forty degrees thirty-three minutes North, nine degrees thirty-three minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "Praia de Mira",
+            "distance_to_nearest_place": "thirty-five",
+            "closest_place_country": "Portugal",
+            "distance_to_nearest_port": "thirty-nine",
+            "nearest_port": "Porto De Aveiro",
+            "distance_to_nearest_harbor": "one hundred eighty-four",
+            "nearest_harbor": "Ferrol Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is fishing vessel SEHOME. Our position is forty degrees thirty-three minutes North, nine degrees thirty-three minutes West. We are adrift and need assistance.",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'FLORES','vessel_MMSI': '123456789','vessel_call_sign': 'FLR','vessel_type': 'Bulk Carrier','vessel_coordinate_dms': 'fifty-one degrees thirty-three minutes North, twenty-four degrees thirty-three minutes West', 'compass_direction': 'north west', 'closest_place_name': 'Funchal', 'distance_to_nearest_place': 'thirty-five', 'closest_place_country': 'Portugal', 'distance_to_nearest_port': 'thirty-nine', 'nearest_port': 'Porto De Aveiro', 'distance_to_nearest_harbor': 'one hundred eighty-four', 'nearest_harbor': 'Ferrol Harbour', 'digit_by_digit': False, 'can_have_cargo': True, 'closest_water_body': 'Atlantic Ocean'}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is fishing vessel SEHOME. Our position is forty degrees thirty-three minutes North, nine degrees thirty-three minutes West. We are adrift and need assistance."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "LIEBCHEN",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "eight zero degrees North, nine six degrees West",
+            "compass_direction": "north east",
+            "closest_place_name": "Bad Weather Cape",
+            "distance_to_nearest_place": "six",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one eight one",
+            "nearest_harbor": "Londesborough Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEB"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEBCHEN, LIEB"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "CALL ME CRAZY",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "fifty-five degrees South, thirty-seven degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Tanner Island",
+            "distance_to_nearest_place": "fifty-nine",
+            "closest_place_country": "South Georgia and South Sandwich Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "eighty-two",
+            "nearest_harbor": "Boat Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Scotia Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Fishing Vessel CALL ME CRAZY, we are adrift at fifty-five degrees South, thirty-seven degrees West, we need immediate assistance, we have been drifting for three days, we are running out of food and water, we are taking on water, we have no engine power, our position is south west of Tanner Island, South Georgia and South Sandwich Islands, we are fifty-nine miles from the nearest land, we have no MMSI number, our call sign is unknown, we are a Fishing Vessel, we have no cargo, we are adrift in the Scotia Sea, please send help immediately, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Fishing Vessel CALL ME CRAZY, we are adrift at fifty-five degrees South, thirty-seven degrees West, we need immediate assistance, we have been drifting for three days, we are running out of food and water, we are taking on water, we have no engine power, our position is south west of Tanner Island, South Georgia and South Sandwich Islands, we are fifty-nine miles from the nearest land, we have no MMSI number, our call sign is unknown, we are a Fishing Vessel, we have no cargo, we are adrift in the Scotia Sea, please send help immediately, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we are in need of assistance, we are in distress, we are adrift, we"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "NYDIA P",
+            "vessel_MMSI": "three six seven zero eight two zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seventy-six degrees North, twenty-six degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Hopen",
+            "distance_to_nearest_place": "twenty-eight",
+            "closest_place_country": "Svalbard and Jan Mayen",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "seventy-four",
+            "nearest_harbor": "Dianahamna",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Barents Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel NYDIA P, position seventy-six degrees North, twenty-six degrees East, south east, closest place is Hopen, twenty-eight miles away, closest place country is Svalbard and Jan Mayen, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel NYDIA P, position seventy-six degrees North, twenty-six degrees East, south east, closest place is Hopen, twenty-eight miles away, closest place country is Svalbard and Jan Mayen, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in distress, I need help, I am adrift, I am in need of help, please send help, I am in"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "HYDE AWAI",
+            "vessel_MMSI": "three six eight two six four four three zero",
+            "vessel_call_sign": "Whisky Delta November two six nine two",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Langtry Island",
+            "distance_to_nearest_place": "ten",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "fifteen",
+            "nearest_harbor": "Heater Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "\"Mayday, Mayday, Mayday, this is motor vessel HYDE AWAI, HYDE AWAI, HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two, fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. We are adrift and in distress. We need immediate help.\"",
+            "    \t\"This is Coast Guard, responding.\"",
+            "    \t\"Coast Guard, this is motor vessel HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two. We are adrift and in distress. We need immediate help. We are currently located at fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. Our nearest place is Langtry Island, Canada, which is ten miles away. Our nearest harbor is Heater Harbour, which is fifteen miles away. We can have cargo. We are a motor vessel HYDE AWAI. Over.\"",
+            "    \t\"Coast Guard, this is motor vessel HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two. We are adrift and in distress. We need immediate help. We are currently located at fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. Our nearest place is Langtry Island, Canada, which is ten miles away. Our nearest harbor is Heater Harbour, which is fifteen miles away. We can have cargo. We are a motor vessel HYDE AWAI. Over.\"",
+            "    \t\"Coast Guard, this is motor vessel HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two. We are adrift and in distress. We need immediate help. We are currently located at fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. Our nearest"
+        ],
+        "pruned_output": [
+            "\"Mayday, Mayday, Mayday, this is motor vessel HYDE AWAI, HYDE AWAI, HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two, fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. We are adrift and in distress. We need immediate help.\"",
+            "    \t\"This is Coast Guard, responding.\"",
+            "    \t\"Coast Guard, this is motor vessel HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two. We are adrift and in distress. We need immediate help. We are currently located at fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. Our nearest place is Langtry Island, Canada, which is ten miles away. Our nearest harbor is Heater Harbour, which is fifteen miles away. We can have cargo. We are a motor vessel HYDE AWAI. Over.\"",
+            "    \t\"Coast Guard, this is motor vessel HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two. We are adrift and in distress. We need immediate help. We are currently located at fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. Our nearest place is Langtry Island, Canada, which is ten miles away. Our nearest harbor is Heater Harbour, which is fifteen miles away. We can have cargo. We are a motor vessel HYDE AWAI. Over.\"",
+            "    \t\"Coast Guard, this is motor vessel HYDE AWAI, three six eight two six four four three zero, Whisky Delta November two six nine two. We are adrift and in distress. We need immediate help. We are currently located at fifty-two degrees seventeen minutes North, one hundred thirty degrees four four point eight four minutes West. Our nearest"
+        ],
+        "score": 2,
+        "explanation": "Repetitive statements"
+    },
+    {
+        "input": {
+            "vessel_name": "STOR STAAHAJ",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirty-five degrees North, fourteen degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Malta Freeport",
+            "distance_to_nearest_place": "thirty-five",
+            "closest_place_country": "Malta",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "thirty-nine",
+            "nearest_harbor": "South West Extension",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Mediterranean Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel STOR STAAHAJ. Our location is thirty-five degrees North, fourteen degrees East. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel STOR STAAHAJ. Our location is thirty-five degrees North, fourteen degrees East. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We need immediate assistance. We are in distress. We need immediate assistance. We are adrift. We"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "DEBONAIR",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-six degrees North, thirty-three degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Ostrov Naumikha",
+            "distance_to_nearest_place": "three",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "seventeen",
+            "nearest_port": "Kovda",
+            "distance_to_nearest_harbor": "one hundred fifty-nine",
+            "nearest_harbor": "Yekaterininskaya Gavan\u2019",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Guba Ilinskaya"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel DEBONAIR, located at sixty-six degrees North, thirty-three degrees East, we are adrift, we need help, we are in distress, we are in need of immediate assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel DEBONAIR, located at sixty-six degrees North, thirty-three degrees East, we are adrift, we need help, we are in distress, we are in need of immediate assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of immediate medical assistance, we are in need of"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SWELL",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixteen degrees North, eighty-four degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Isla Grande",
+            "distance_to_nearest_place": "thirty-nine",
+            "closest_place_country": "Honduras",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel SWELL. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel SWELL. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift. We are adrift"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "DREAM CATCHER",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Delta Kilo nine three nine four",
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East",
+            "compass_direction": "south west",
+            "closest_place_name": "Lumit",
+            "distance_to_nearest_place": "forty-five",
+            "closest_place_country": "Philippines",
+            "distance_to_nearest_port": "seventy-nine",
+            "nearest_port": "Port Lebak",
+            "distance_to_nearest_harbor": "fifty-four",
+            "nearest_harbor": "Milbuk Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Celebes Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost all power. We are adrift. We are adrift. We are adrift. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost all power. We are adrift. We are adrift. We are adrift. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost all power. We are adrift. We are adrift. We are adrift. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost all power. We are adrift. We are adrift. We are adrift. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost all power. We are adrift. We are adrift. We are adrift. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost all power. We are adrift. We are adrift. We are adrift. This is Fishing Vessel DREAM CATCHER. We are adrift. We are adrift. We are adrift. Our location is five degrees fifteen minutes North, one hundred twenty-four degrees two three decimal six seven minutes East. We have lost all power. We are taking on water. We need immediate assistance. We need immediate assistance. We need immediate assistance. We are taking on water. We have lost"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]

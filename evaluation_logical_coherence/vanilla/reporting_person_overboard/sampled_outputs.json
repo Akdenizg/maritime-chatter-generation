@@ -1,0 +1,285 @@
+[
+    {
+        "input": {
+            "vessel_name": "NANCY SONIER",
+            "vessel_MMSI": "three six seven six five four five two zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "six three degrees one one decimal one one minutes North, four zero degrees one six decimal six eight minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Uummannaarsuk",
+            "distance_to_nearest_place": "two three",
+            "closest_place_country": "Greenland",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "nine two",
+            "nearest_harbor": "Andr\u00e6s Havn",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Irminger Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, Nancy Sonier, this is Coast Guard, what is your position and what is your nature of emergency?",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'NANCY SONIER','vessel_MMSI': 'three six seven six five four five two zero','vessel_call_sign': 'nine two zero zero','vessel_type': 'Motor Vessel','vessel_coordinate_dms':'six three degrees one one decimal one one minutes North, four zero degrees one six decimal six eight minutes West', 'compass_direction':'south east', 'closest_place_name': 'Uummannaarsuk', 'distance_to_nearest_place': 'two three', 'closest_place_country': 'Greenland', 'distance_to_nearest_port': None, 'nearest_port': None, 'distance_to_nearest_harbor': 'nine two', 'nearest_harbor': 'Andr\u00e6s Havn', 'digit_by_digit': True, 'can_have_cargo': 'True', 'closest_water_body': 'Irminger Sea'}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, Nancy Sonier, this is Coast Guard, what is your position and what is your nature of emergency"
+        ],
+        "score": 1,
+        "explanation": "Not a valid conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "KITECRUISER",
+            "vessel_MMSI": "two one nine zero three two eight eight nine",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Mys Krestovyy",
+            "distance_to_nearest_place": "three",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "seventy-five",
+            "nearest_port": "Morskoy Port Petropavlovsk-Kamchatskiy",
+            "distance_to_nearest_harbor": "seventy-five",
+            "nearest_harbor": "Petropavlovskaya Guba",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Bukhta Otradnaya"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel KITECRUISER. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel KITECRUISER. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero decimal four seven minutes East. We have a person overboard. Please help us. We are a motor vessel. We have a person overboard. Please help us. We are at fifty-one degrees forty-seven minutes North, one hundred fifty-eight degrees one zero"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "BOJABE",
+            "vessel_MMSI": "two three two zero three seven four three eight",
+            "vessel_call_sign": "Mike Juliet Sierra India four",
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "six degrees South, one three two degrees East",
+            "compass_direction": "north east",
+            "closest_place_name": "Tanjung Waarlangier",
+            "distance_to_nearest_place": "four five",
+            "closest_place_country": "Indonesia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Arafura Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJ"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJABE, motor vessel BOJ"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "ERIN CARROLL",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seventy-four degrees North, one hundred one degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Cape Cockburn",
+            "distance_to_nearest_place": "twenty-seven",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "eighty-nine",
+            "nearest_harbor": "Tigumiavik Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Sea of Melville"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel ERIN CARROLL. We are at seventy-four degrees North, one hundred one degrees West. We are in distress. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person over"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel ERIN CARROLL. We are at seventy-four degrees North, one hundred one degrees West. We are in distress. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person overboard. We need help. We are a motor vessel. We have a person over"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "HM141 PLUTO",
+            "vessel_MMSI": "two one nine zero zero five six seven one",
+            "vessel_call_sign": "Oscar Uniform seven nine eight eight",
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "fifty-six degrees South, seventy-one degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Isla Sea",
+            "distance_to_nearest_place": "fifty-three",
+            "closest_place_country": "Chile",
+            "distance_to_nearest_port": "one hundred twenty-six",
+            "nearest_port": "Ushuaia",
+            "distance_to_nearest_harbor": "sixty-six",
+            "nearest_harbor": "Puerto Enga\u00f1o",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is HM141 PLUTO, position is fifty-six degrees South, seventy-one degrees West, south west, requesting assistance, we have person overboard, please send help, we are fishing vessel HM141 PLUTO, Oscar Uniform seven nine eight eight, two one nine zero zero five six seven one, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard,"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is HM141 PLUTO, position is fifty-six degrees South, seventy-one degrees West, south west, requesting assistance, we have person overboard, please send help, we are fishing vessel HM141 PLUTO, Oscar Uniform seven nine eight eight, two one nine zero zero five six seven one, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard, we have person overboard,"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "PIONEER",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Tugboat",
+            "vessel_coordinate_dms": "twenty-two degrees South, one hundred seventy-six degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "\u2018Ata",
+            "distance_to_nearest_place": "thirteen",
+            "closest_place_country": "Tonga",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one hundred thirty-seven",
+            "nearest_harbor": "Nomuka Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER, tugboat PIONEER, mayday, mayday, mayday, this is PIONEER, tugboat PIONEER, twenty-two degrees South, one hundred seventy-six degrees West, north west, \u2018Ata, thirteen, Tonga, Nomuka Harbor, one hundred thirty-seven, PIONEER"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SEA HUNT",
+            "vessel_MMSI": "three three eight three six seven three zero six",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "eight zero degrees North, one one degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Moffen",
+            "distance_to_nearest_place": "five seven",
+            "closest_place_country": "Svalbard and Jan Mayen",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "seven one",
+            "nearest_harbor": "Worsleyhamna",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Arctic Ocean"
+        },
+        "generated_output": [
+            "### Mayday, Mayday, Mayday, this is Motor Vessel SEA HUNT. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor Vessel and we are in distress. We are at eight zero degrees North, one one degrees East. We are a Motor V"
+        ],
+        "pruned_output": [
+            ""
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "DISNEY WISH",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-seven degrees North, ten degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Hernyken",
+            "distance_to_nearest_place": "twenty-six",
+            "closest_place_country": "Norway",
+            "distance_to_nearest_port": "one hundred forty-five",
+            "nearest_port": "Harstad",
+            "distance_to_nearest_harbor": "one hundred twenty-five",
+            "nearest_harbor": "L\u00f8dingen Hamn",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Norwegian Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten degrees East. We have a person overboard. We need help. Coast Guard here. What is your location? Coast Guard here. What is your location? This is motor vessel DISNEY WISH. We are at sixty-seven degrees North, ten"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "WTG HZW2",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "eight three degrees North, five zero degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Kap Payer",
+            "distance_to_nearest_place": "five zero",
+            "closest_place_country": "Greenland",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one one six",
+            "nearest_harbor": "Sail Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Lincoln Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel WTG HZW2. We are a Motor Vessel. We are at eight three degrees North, five zero degrees West. We are going to Sail Harbour. We are in need of assistance. We are in need of medical assistance. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel WTG HZW2. We are a Motor Vessel. We are at eight three degrees North, five zero degrees West. We are going to Sail Harbour. We are in need of assistance. We are in need of medical assistance. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have one person overboard. We have"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "NICEVILLE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Delta Echo nine four six seven",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "eight one degrees North, nine five degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Cape Thomas Hubbard",
+            "distance_to_nearest_place": "three four",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE, motor vessel NICEVILLE"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]

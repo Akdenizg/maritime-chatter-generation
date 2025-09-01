@@ -1,0 +1,313 @@
+[
+    {
+        "input": {
+            "vessel_name": "GIMLET",
+            "vessel_MMSI": "three three eight four six four seven three six",
+            "vessel_call_sign": null,
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "six degrees two point nine six minutes North, five five degrees one one point one one minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "Margaretha",
+            "distance_to_nearest_place": "seven",
+            "closest_place_country": "Suriname",
+            "distance_to_nearest_port": "one three",
+            "nearest_port": "Paramaribo",
+            "distance_to_nearest_harbor": "one eight four",
+            "nearest_harbor": "Port of Georgetown",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is sailing vessel GIMLET, MMSI three three eight four six four seven three six. Position six degrees two point nine six minutes North, five five degrees one one point one one minutes West. We are taking on water. Requesting assistance. Over.",
+            "GIMLET, this is Coast Guard. Roger your Mayday. What is the extent of the flooding? Over.",
+            "We have flooding in the galley and accommodation areas. Water is coming in from above. Over.",
+            "Understood. What assistance do you require? Over.",
+            "Pumps and a repair team. We can maintain our position. Over.",
+            "Roger. A rescue vessel with pumps and a repair team is en route. ETA approximately two hours. Keep us updated on the situation. Over."
+        ],
+        "score": 4,
+        "explanation": "Water is coming in from above."
+    },
+    {
+        "input": {
+            "vessel_name": "SWEET MISERY",
+            "vessel_MMSI": "three three eight four eight nine seven four seven",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five nine degrees North, six six degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Mitirpunga Island",
+            "distance_to_nearest_place": "two five",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "six three",
+            "nearest_harbor": "Williams Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "The Swirlers"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SWEET MISERY. MMSI number three three eight four eight nine seven four seven. Our position is five nine degrees North, six six degrees West. We are flooding below waterline and cannot control the flooding. Requesting immediate assistance. Over.",
+            "SWEET MISERY, this is Coast Guard. What is the nature of the flooding? Over.",
+            "We struck an uncharted submerged object causing a hull breach. We have a dangerous list to starboard and are taking on water rapidly. Over.",
+            "Understood. Rescue vessel is en route from Williams Harbour, ETA one hour. Do you require medical assistance? Over.",
+            "We have one injured crew member who requires medical assistance. Over.",
+            "Understood. Medical personnel will be available on rescue vessel. Keep us updated on the situation. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "MOLLY",
+            "vessel_MMSI": "three three eight one seven three three eight six",
+            "vessel_call_sign": null,
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "twenty degrees five zero decimal zero three minutes South, twenty-nine degrees twenty-nine minutes West",
+            "compass_direction": "south west",
+            "closest_place_name": "Ilha do Sul",
+            "distance_to_nearest_place": "twenty-one",
+            "closest_place_country": "Brazil",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is pleasure craft MOLLY, MMSI three three eight one seven three three eight six. We are at twenty degrees five zero decimal zero three minutes South, twenty-nine degrees twenty-nine minutes West, twenty-one nautical miles south west of Ilha do Sul. We are taking on water and have a broken rudder. Requesting immediate assistance. Over.",
+            "MOLLY, this is Coast Guard. How many persons are on board and if there are any casualties? Over.",
+            "Coast Guard, we have six persons on board. No casualties reported. Over.",
+            "Understood. We are dispatching a rescue vessel. ETA approximately two hours. Please maintain position and provide updates. Over.",
+            "Roger, Coast Guard. We are preparing lifeboats and will provide further updates. Over.",
+            "MOLLY, do you require medical assistance? Over.",
+            "We have minor injuries reported. Medical assistance may be required. Over.",
+            "Understood. We will dispatch a helicopter with medical team. ETA approximately one hour. Over.",
+            "Roger, Coast Guard. We will await helicopter arrival. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "ANGELIQUE OF VANCOUV",
+            "vessel_MMSI": "three one six zero two one two nine two",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirty-five degrees South, one hundred twenty degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Banky Beach",
+            "distance_to_nearest_place": "forty-seven",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one hundred six",
+            "nearest_harbor": "Princess Royal Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel ANGELIQUE OF VANCOUV. My MMSI number is three one six zero two one two nine two. My position is thirty-five degrees South, one hundred twenty degrees East, forty-seven nautical miles south east of Banky Beach. We are taking on water. Requesting assistance immediately. Over.",
+            "ANGELIQUE OF VANCOUV, this is Coast Guard. What is the extent of flooding and number of persons on board? Over.",
+            "Coast Guard, we have a breach in the hull. Flooding is increasing rapidly. We have twenty persons on board. Three crew members are injured. Over.",
+            "Understood. We are dispatching a rescue vessel and helicopter to your position. ETA is one hour. Are you making any preparation to abandon the vessel? Over.",
+            "Yes, we are preparing to abandon vessel. We will launch lifeboats. Over.",
+            "How many persons will abandon vessel? Over.",
+            "All twenty persons will abandon vessel. Over.",
+            "Understood. Keep us updated on the situation. Assistance is on the way."
+        ],
+        "score": 3,
+        "explanation": "Are you making any preparation to abandon the vessel? This qustion does not fit the chatter."
+    },
+    {
+        "input": {
+            "vessel_name": "CALINA",
+            "vessel_MMSI": "two six five eight zero one three six zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirty-four degrees South, one hundred thirty-four degrees East",
+            "compass_direction": "south west",
+            "closest_place_name": "Rocky Island",
+            "distance_to_nearest_place": "twenty-seven",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": "thirty-seven",
+            "nearest_port": "Port Douglas",
+            "distance_to_nearest_harbor": "sixty-seven",
+            "nearest_harbor": "Port Lincoln",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel CALINA, MMSI two six five eight zero one three six zero. We are at thirty-four degrees South, one hundred thirty-four degrees East. Flooding in engine room. Requesting immediate assistance. Over.",
+            "CALINA, this is Coast Guard. What is the extent of the flooding and how many persons on board? Over.",
+            "Engine room flooding is out of control. We have ten persons on board. Over.",
+            "Understood. We are dispatching a rescue vessel. ETA one hour. Requesting immediate abandonment if situation worsens. Over.",
+            "Abandoning vessel. We are launching lifeboats. Over.",
+            "CALINA, we are receiving reports of a large oil slick spreading rapidly. Requesting immediate information. Over.",
+            "We have activated EPIRB. There is a large oil spill from our vessel. Over.",
+            "Coast Guard, the oil spill is coming from our vessel. We have a major oil spill. Over.",
+            "Understood. We will dispatch additional cleanup vessels. Stand by for further instructions. Over."
+        ],
+        "score": 2,
+        "explanation": "Requesting immediate abandonment if situation worsens. CALINA, we are receiving reports of a large oil slick spreading rapidly. Requesting immediate information. Over. These sentences do not make sense"
+    },
+    {
+        "input": {
+            "vessel_name": "ANDI RAE",
+            "vessel_MMSI": "three six eight one six zero six nine zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "two nine degrees North, one two degrees West",
+            "compass_direction": "north east",
+            "closest_place_name": "Isla de Alegranza",
+            "distance_to_nearest_place": "four three",
+            "closest_place_country": "Spain",
+            "distance_to_nearest_port": "four seven",
+            "nearest_port": "Orzola Port",
+            "distance_to_nearest_harbor": "six two",
+            "nearest_harbor": "Puerto de Arrecife",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel ANDI RAE, MMSI three six eight one six zero six nine zero. We are at two nine degrees North, one two degrees West. We have a leak in the engine room and are taking on water. Requesting immediate assistance. Over.",
+            "ANDI RAE, this is Coast Guard. What is the extent of the flooding? Over.",
+            "Flooding is increasing rapidly. We cannot contain it. We have nine persons on board, including four crew members. Two crew members are injured. Over.",
+            "Understood. We are dispatching a rescue vessel and a helicopter. ETA one hour. Do you require medical assistance? Over.",
+            "Yes, we require medical assistance for two crew members who are injured. Over.",
+            "Roger. Medical assistance will be available on the rescue vessel. Keep us updated on the situation. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "MIST",
+            "vessel_MMSI": "three three eight one two two four eight two",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "eighteen degrees three six point six three minutes North, seventy-six degrees two nine point two three minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Low Leyton",
+            "distance_to_nearest_place": "twenty-four",
+            "closest_place_country": "Jamaica",
+            "distance_to_nearest_port": "forty-two",
+            "nearest_port": "Port Bustamante",
+            "distance_to_nearest_harbor": "forty-five",
+            "nearest_harbor": "Port Royal Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel MIST, MMSI three three eight one two two four eight two. We are at eighteen degrees three six point six three minutes North, seventy-six degrees two nine point two three minutes West. We are experiencing severe flooding due to a hull breach. Requesting immediate assistance. Over.",
+            "MIST, this is Coast Guard. What is the extent of the flooding? Over.",
+            "Coast Guard, flooding is severe. We are losing control of the flooding. We require immediate assistance. Over.",
+            "MIST, understood. We are dispatching a rescue vessel and a helicopter. ETA one hour. Over.",
+            "Roger that. Thank you Coast Guard. Over.",
+            "MIST, stay calm. Assistance is on the way. Over.",
+            "Roger that. Over."
+        ],
+        "score": 4,
+        "explanation": "Unnecessary advice to stay calm after the chatter is already over."
+    },
+    {
+        "input": {
+            "vessel_name": "TIKI TIME",
+            "vessel_MMSI": "three six eight two four four four five zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "fifteen degrees three point zero one minutes North, one hundred sixty-nine degrees nineteen minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Kamwome",
+            "distance_to_nearest_place": "thirty",
+            "closest_place_country": "Marshall Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel TIKI TIME, MMSI three six eight two four four four five zero. My position is fifteen degrees three point zero one minutes North, one hundred sixty-nine degrees nineteen minutes East, thirty nautical miles north east of Kamwome. We are experiencing severe flooding due to damaged hull. Requesting immediate assistance. Over.",
+            "TIKI TIME, this is Coast Guard. Can you provide further details about the flooding?",
+            "Coast Guard, we have a breach in the hull below the water line. Flooding is increasing rapidly and pumps cannot keep up. We require immediate assistance. Over.",
+            "Understood. We are dispatching a rescue vessel and helicopter to your location. ETA approximately two hours. Can you maintain position?",
+            "We will do our best, but vessel is sinking fast. Over.",
+            "Stay on this frequency and update us on your situation. Over.",
+            "Roger, Coast Guard. We are preparing lifeboats for possible evacuation. Over.",
+            "We will assist with distress calls when necessary. Over."
+        ],
+        "score": 4,
+        "explanation": "We will assist with distress calls when necessary. Sentence is not logical"
+    },
+    {
+        "input": {
+            "vessel_name": "RS JOURNEY II",
+            "vessel_MMSI": "three one six zero zero two zero three two",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five degrees seven point nine six minutes South, one hundred forty-six degrees five four point eight eight minutes East",
+            "compass_direction": "south west",
+            "closest_place_name": "Crown Island",
+            "distance_to_nearest_place": "two",
+            "closest_place_country": "Papua New Guinea",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "fifty-one",
+            "nearest_harbor": "Schlangen Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Bismarck Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel RS JOURNEY II, MMSI three one six zero zero two zero three two. We are at five degrees seven point nine six minutes South, one hundred forty-six degrees five four point eight eight minutes East, south west of Crown Island. We are experiencing flooding in the engine room due to a fire. We require immediate assistance. Over.",
+            "RS JOURNEY II, this is Coast Guard. What is the extent of the flooding? Are there any casualties? Over.",
+            "Coast Guard, the engine room is flooded. Fire has been extinguished. We have one crew member missing and two injured. Over.",
+            "Understood. We are dispatching a rescue vessel and a helicopter to your position. ETA one hour. Over.",
+            "Thank you, Coast Guard. We are preparing to abandon vessel if situation worsens. Over.",
+            "Maintain communications and report any updates on the situation. Assistance is on the way. Over."
+        ],
+        "score": 3,
+        "explanation": "Flooding due to a fire"
+    },
+    {
+        "input": {
+            "vessel_name": "MY TC",
+            "vessel_MMSI": "three one nine one eight zero three zero zero",
+            "vessel_call_sign": "Zulu Golf Kilo Mike three",
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "twenty-two degrees fifty-six minutes South, fourteen degrees two nine point nine nine minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Walvis Bay",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": null,
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Walvis Bay"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is pleasure craft MY TC, MMSI three one nine one eight zero three zero zero, call sign Zulu Golf Kilo Mike three. We are flooding. Our position is twenty-two degrees fifty-six minutes South, fourteen degrees two nine point nine nine minutes East. We require immediate assistance. Over.",
+            "MY TC, this is Coast Guard. What is the extent of the flooding? Over.",
+            "Coast Guard, flooding is below the water line. We have lost power and cannot move. We require pumps and a rescue vessel. Over.",
+            "Understood. We are dispatching a rescue vessel and a helicopter to your position. ETA one hour. We will send additional pumps as well. Over.",
+            "Thank you, Coast Guard. We are preparing lifeboats for possible evacuation. Over.",
+            "Roger. Maintain communications and keep us updated. Assistance is on the way. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    }
+]

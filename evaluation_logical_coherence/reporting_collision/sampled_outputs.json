@@ -1,0 +1,322 @@
+[
+    {
+        "input": {
+            "vessel_name": "OLIVIA GRACE",
+            "vessel_MMSI": "three six six six one four zero zero zero",
+            "vessel_call_sign": "Whisky Delta Echo six five four three",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "three eight degrees South, one three nine degrees East",
+            "compass_direction": "south west",
+            "closest_place_name": "Le Brilliant",
+            "distance_to_nearest_place": "four four",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": "eight two",
+            "nearest_port": "Portland Port",
+            "distance_to_nearest_harbor": "one seven nine",
+            "nearest_harbor": "Port Pullen",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel OLIVIA GRACE with call sign Whisky Delta Echosixfivefourthree. Our MMSI number is three six six six one four zero zero zero. We have collided with an unknown object. Our position is three eight degrees South, one three nine degrees East. We are taking on water and require immediate assistance. Over.",
+            "OLIVIA GRACE, this is Coast Guard. We copy your distress call. What is the extent of the damage and your current situation? Over.",
+            "We have a breach in the hull and are taking on water rapidly. Our pumps are struggling to keep up and we are losing power. We need immediate assistance. Over.",
+            "Understood, OLIVIA GRACE. We are dispatching a patrol vessel from Portland Port, ETA eight two minutes. Requesting ETA from you. Over.",
+            "Our situation is deteriorating rapidly. We are losing power and cannot maintain communication. We will update you when possible. Over.",
+            "Copy that, OLIVIA GRACE. We will maintain communication until assistance arrives. Over."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "BOW ARCHITECT",
+            "vessel_MMSI": "two five seven one six two zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four zero degrees four five minutes North, one two five degrees three five decimal seven two minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "Fauntleroy Rock",
+            "distance_to_nearest_place": "five seven",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "six five",
+            "nearest_harbor": "Eureka Boat Basin",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": "SOUTHERNER",
+            "collided_vessel_type": "Pleasure Craft"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel BOW ARCHITECT, MMSI two five seven one six two zero zero zero. We have collided with a pleasure craft named SOUTHERNER. We are at four zero degrees four five minutes North, one two five degrees three five decimal seven two minutes West. We have suffered damage to our starboard side, but we are able to maintain control. Over.",
+            "BOW ARCHITECT, this is Coast Guard responding. What is the status of the SOUTHERNER? Over.",
+            "The SOUTHERNER has sunk, and we have recovered three survivors. We are treating them for hypothermia. Over.",
+            "Understood. We are dispatching a rescue helicopter to your location. ETA is five minutes. Over.",
+            "We appreciate the assistance. We will prepare for the helicopter's arrival. Over.",
+            "Copy that, BOW ARCHITECT. Maintain communication and stand by for further instructions. Over.",
+            "Yes, Coast Guard. We are preparing for the helicopter's arrival. Over."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "SALKRAPPD",
+            "vessel_MMSI": "two nine nine two six two zero three six",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "one nine degrees one point one eight minutes South, one six two degrees five five minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Toms",
+            "distance_to_nearest_place": "five six",
+            "closest_place_country": "Cook Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SALKRAPPD. MMSI two nine nine two six two zero three six. Position one nine degrees one point one eight minutes South, one six two degrees five five minutes West. We have collided with an unknown object. Requesting immediate assistance. Over.",
+            "SALKRAPPD, this is Coast Guard. Copy your Mayday. Can you provide any additional information about the collision? Over.",
+            "We are taking on water and have suffered damage to our propulsion system. We are attempting to stabilize the vessel but require immediate assistance. Over.",
+            "Understood, SALKRAPPD. We are dispatching a rescue vessel and a tug to your location. ETA approximately three zero minutes. Can you provide any further details or immediate needs? Over.",
+            "We have a crew of eight and are preparing for evacuation. We require assistance with stabilization and reduction of water ingress. Over.",
+            "Understood, SALKRAPPD. We will maintain communication and keep you updated on the rescue operation. Stay safe. Over.",
+            "Copy that, Coast Guard. SALKRAPPD out."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "STOLT STREAM",
+            "vessel_MMSI": "three one nine four six nine zero zero zero",
+            "vessel_call_sign": "Zulu Charlie Sierra Romeo",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "one degrees South, eighty-one degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Isla de La Plata",
+            "distance_to_nearest_place": "twenty-six",
+            "closest_place_country": "Ecuador",
+            "distance_to_nearest_port": "forty-nine",
+            "nearest_port": "Manta",
+            "distance_to_nearest_harbor": "one hundred fifty-four",
+            "nearest_harbor": "Puerto Bol\u00edvar",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel STOLT STREAM, MMSI three one nine four six nine zero zero zero, call sign Zulu Charlie Sierra Romeo. I have collided with an unknown object. Our position is one degrees South, eighty-one degrees West, twenty-six nautical miles north west of Isla de La Plata. There are no injuries reported, but we have sustained damage to our hull. We require immediate assistance. Over.",
+            "Coast Guard responding. Can you provide more details about the nature of the damage? Over.",
+            "The damage is significant, but we have not lost our ability to navigate. We are attempting to stabilize the situation. Over.",
+            "Understood. We are dispatching a tugboat to your location. ETA is approximately two zero minutes. Do you have any medical personnel on board? Over.",
+            "No, we do not have any medical personnel on board. Over.",
+            "Okay, please maintain communication with the coast guard and keep us updated on the situation. We will prioritize your assistance. Over.",
+            "Yes, we will keep you informed. We appreciate the help. Over."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "NORWEGIAN SPIRIT",
+            "vessel_MMSI": "three one one seven four six zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Passenger Vessel",
+            "vessel_coordinate_dms": "twenty-three degrees twenty-three minutes North, one hundred fifty-four degrees eleven minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Marcus Island",
+            "distance_to_nearest_place": "fifty-five",
+            "closest_place_country": "Japan",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": "True",
+            "closest_water_body": null,
+            "collided_vessel_name": "CITY OF ROTTERDAM",
+            "collided_vessel_type": "Cargo Vessel"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is passenger vessel NORWEGIAN SPIRIT, MMSI three one one seven four six zero zero zero. We have collided with cargo vessel CITY OF ROTTERDAM. Our position is twenty-three degrees twenty-three minutes North, one hundred fifty-four degrees eleven minutes East. We are taking on water and requesting immediate assistance. Over.",
+            "NORWEGIAN SPIRIT, this is Coast Guard responding. We have dispatched a rescue vessel from Marcus Island, ETA fifty-five minutes. Please remain on this channel. Over.",
+            "Understood. We are initiating pumps but have significant damage below the waterline. Over.",
+            "Maintain your current position and keep us updated on the situation. Over.",
+            "Yes, ma'am. We will do our best to keep you informed. Over.",
+            "Keep us updated on the progress of the pumps and the overall situation. Over.",
+            "Yes, ma'am. We will keep you informed. Over."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "MINIE",
+            "vessel_MMSI": "two one one five six seven nine six zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "one zero degrees North, one seven one degrees East",
+            "compass_direction": "north east",
+            "closest_place_name": "Mejit Island",
+            "distance_to_nearest_place": "four four",
+            "closest_place_country": "Marshall Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one zero four",
+            "nearest_harbor": "Wotje Island Anchorage",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "North Pacific Ocean - Marshall Islands",
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel MINIE, MMSI two one one five six seven nine six zero. I have collided with an unknown object. I am one zero degrees North, one seven one degrees East, four four nautical miles north east of Mejit Island. Requesting immediate assistance. Over.",
+            "MINIE, this is Coast Guard. What is the extent of the damage? Over.",
+            "We have sustained significant damage to our hull. We are taking on water and our propulsion is affected. Over.",
+            "We are dispatching a tugboat to your location. ETA is one hour. Over.",
+            "Thank you, Coast Guard. We are attempting temporary repairs to contain the water inflow. Over.",
+            "Understood. Maintain communication with the Coast Guard. Over."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "CROWS NEST",
+            "vessel_MMSI": "three six eight two two two two five zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-five degrees North, fifty-three degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Innarsuit",
+            "distance_to_nearest_place": "twenty-one",
+            "closest_place_country": "Greenland",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "twenty-eight",
+            "nearest_harbor": "Isortoq",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel CROWS NEST, MMSI three six eight two two two two five zero. I have collided with an iceberg at sixty-five degrees North, fifty-three degrees West. We have significant structural damage and are taking on water. Immediate assistance required.",
+            "CROWS NEST, this is Coast Guard. We are dispatching a rescue team to your location. ETA one hour.",
+            "Thank you, Coast Guard. We are implementing damage control measures and preparing for evacuation.",
+            "Understood. Maintain communication with us and keep us updated on your situation.",
+            "Yes, Coast Guard. We will keep you informed.",
+            "Good communication. Stay safe, CROWS NEST. We will maintain contact."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "CARNIVAL CELEBRATION",
+            "vessel_MMSI": "three one one zero zero one two two three",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four one degrees two zero point four three minutes North, six nine degrees one zero point six three minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Siasconset Beach",
+            "distance_to_nearest_place": "three six",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": "one zero three",
+            "nearest_port": "Providence",
+            "distance_to_nearest_harbor": "three eight",
+            "nearest_harbor": "Polpis Harbor",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "The Overfalls",
+            "collided_vessel_name": "CAPT EDWARD",
+            "collided_vessel_type": "Fishing Vessel"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel CARNIVAL CELEBRATION, MMSI three one one zero zero one two two three. We have collided with fishing vessel CAPT EDWARD. Our position is four one degrees two zero point four three minutes North, six nine degrees one zero point six three minutes West. The Overfalls is on our port side. We require immediate medical assistance for injuries to our crew. Over.",
+            "CARNIVAL CELEBRATION, this is Coast Guard responding. We have dispatched a rescue vessel and a helicopter to your location. ETA for rescue vessel is one zero three minutes, helicopter ETA is three eight minutes. Over.",
+            "Thank you, Coast Guard. We will keep you updated on our situation. Over.",
+            "Understood. Maintain communication and keep us informed of any changes. Over."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "CANDY LAND",
+            "vessel_MMSI": "three six seven three six two five two zero",
+            "vessel_call_sign": "Whisky Delta Echo five one three three",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-two degrees North, one hundred sixty-five degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Kwikak",
+            "distance_to_nearest_place": "twelve",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Norton Sound",
+            "collided_vessel_name": "SEDNA",
+            "collided_vessel_type": "Motor Vessel"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel CANDY LAND, MMSI three six seven three six two five two zero, call sign Whisky Delta Edo five one three three. We have collided with motor vessel SEDNA. Our position is sixty-two degrees North, one hundred sixty-five degrees West. We are taking on water and losing power. Requesting immediate assistance.",
+            "CANDY LAND, this is Coast Guard responding. We have dispatched a rescue vessel to your location. ETA approximately twelve minutes. Prepare for possible evacuation.",
+            "Understood, Coast Guard. We are preparing for evacuation and securing the damaged area.",
+            "Stay safe CANDY LAND. We will maintain communication."
+        ],
+        "score": 0,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "MD4349DL",
+            "vessel_MMSI": "three three eight two zero six five five two",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "twenty-two degrees twenty minutes South, forty degrees four five point six two minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Cabo de S\u00e3o Tom\u00e9",
+            "distance_to_nearest_place": "twenty-three",
+            "closest_place_country": "Brazil",
+            "distance_to_nearest_port": "thirty-two",
+            "nearest_port": "Porto do Acu",
+            "distance_to_nearest_harbor": "one hundred thirty-seven",
+            "nearest_harbor": "Rio de Janeiro Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel MD4349DL, MMSI three three eight two zero six five five two. We have experienced a collision with an unknown object. Our position is twenty-two degrees twenty minutes South, forty degrees four five point six two minutes West. We have sustained significant damage and are taking on water. Requesting immediate assistance.",
+            "MD4349DL, this is Coast Guard. What is the extent of the damage and do you require evacuation? Over.",
+            "The vessel is severely damaged and is taking on water rapidly. We require immediate evacuation. Over.",
+            "Understood. We are dispatching a rescue helicopter to your location. ETA is approximately one hundred thirty-seven minutes. Over.",
+            "Thank you, Coast Guard. We are preparing for evacuation. Over.",
+            "Stay safe MD4349DL. We will maintain communication."
+        ],
+        "score": 0,
+        "explanation": ""
+    }
+]

@@ -1,0 +1,288 @@
+[
+    {
+        "input": {
+            "vessel_name": "RESURGENT",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "seven degrees three three decimal four eight minutes South, one five nine degrees two five decimal six four minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Hakelake Rock",
+            "distance_to_nearest_place": "two two",
+            "closest_place_country": "Solomon Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "four six",
+            "nearest_harbor": "Palunuhukura Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel RESURGENT, MMSI 454, call sign 454. We are a fishing vessel. We are in distress. We are listing. We need help. We are in danger of capsizing. Our location is seven degrees three three decimal four eight minutes South, one five nine degrees two five decimal six four minutes East. We are heading north east. Our closest place is Hakelake Rock, two two nautical miles. Our closest place country is Solomon Islands. We are in danger of capsizing. Our closest water body is Solomon Sea. We are in danger of capsizing. Our nearest harbor is Palunuhukura Harbour, four six nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel RESURGENT, MMSI 454, call sign 454. We are a fishing vessel. We are in distress. We are listing. We need help. We are in danger of capsizing. Our location is seven degrees three three decimal four eight minutes South, one five nine degrees two five decimal six four minutes East. We are heading north east. Our closest place is Hakelake Rock, two two nautical miles. Our closest place country is Solomon Islands. We are in danger of capsizing. Our closest water body is Solomon Sea. We are in danger of capsizing. Our nearest harbor is Palunuhukura Harbour, four six nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our nearest port is Port Vila, one hundred fifty two nautical miles. We are in danger of capsizing. Our"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SEA LIFE",
+            "vessel_MMSI": "three six eight one five two nine six zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "two nine degrees two eight point eight seven minutes North, one five degrees three two minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Selvagem Pequena",
+            "distance_to_nearest_place": "four two",
+            "closest_place_country": "Portugal",
+            "distance_to_nearest_port": "seven one",
+            "nearest_port": "Santa Cruz de Tenerife Port",
+            "distance_to_nearest_harbor": "seven zero",
+            "nearest_harbor": "Puerto de Santa Cruz de Tenerife",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Sailing Vessel SEA LIFE. SEA LIFE is in distress. SEA LIFE is listing heavily to the left and danger of capsizing. SEA LIFE is taking on water. SEA LIFE is in position two nine degrees two eight point eight seven minutes North, one five degrees three two minutes West. SEA LIFE is in need of immediate assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Sailing Vessel SEA LIFE. SEA LIFE is in distress. SEA LIFE is listing heavily to the left and danger of capsizing. SEA LIFE is taking on water. SEA LIFE is in position two nine degrees two eight point eight seven minutes North, one five degrees three two minutes West. SEA LIFE is in need of immediate assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE is in need of immediate medical assistance. SEA LIFE"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "FOFFTEIN",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five degrees North, one hundred fifty-seven degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Wat",
+            "distance_to_nearest_place": "twenty",
+            "closest_place_country": "Micronesia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one hundred three",
+            "nearest_harbor": "Kolonia Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN."
+        ],
+        "pruned_output": [
+            "FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. This is Coast Guard. FOFFTEIN, FOFFTEIN, FOFFTEIN. Coast Guard here. FOFFTEIN, FOFFTEIN, FOFFTEIN. Motor Vessel FOFFTEIN, five degrees North, one hundred fifty-seven degrees East. Coast Guard responding. FOFFTEIN, FOFFTEIN, FOFFTEIN."
+        ],
+        "score": 2,
+        "explanation": "Repetitive statements"
+    },
+    {
+        "input": {
+            "vessel_name": "BATAVIA",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirty-five degrees twenty-two minutes North, six degrees one eight decimal three seven minutes West",
+            "compass_direction": "south west",
+            "closest_place_name": "Biyat",
+            "distance_to_nearest_place": "eleven",
+            "closest_place_country": "Morocco",
+            "distance_to_nearest_port": "thirteen",
+            "nearest_port": "Port Larache",
+            "distance_to_nearest_harbor": "sixty-two",
+            "nearest_harbor": "Algeciras Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel BATAVIA is in distress. We are south west of Biyat, Morocco, eleven nautical miles from it. Our current position is thirty-five degrees twenty-two minutes North, six degrees one eight decimal three seven minutes West. We are in danger of capsizing. We are listing to the left. We need immediate help. This is Motor Vessel BATAVIA, MMSI number 123456789, call sign ABC123, over.",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'BATAVIA','vessel_MMSI': '123456789','vessel_call_sign': 'ABC123','vessel_type': 'Motor Vessel','vessel_coordinate_dms': 'thirty-five degrees twenty-two minutes North, six degrees one eight decimal three seven minutes West', 'compass_direction':'south west', 'closest_place_name': 'Biyat', 'distance_to_nearest_place': 'eleven', 'closest_place_country': 'Morocco', 'distance_to_nearest_port': 'thirteen', 'nearest_port': 'Port Larache', 'distance_to_nearest_harbor':'sixty-two', 'nearest_harbor': 'Algeciras Harbor', 'digit_by_digit': False, 'can_have_cargo': 'True', 'closest_water_body': None}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel BATAVIA is in distress. We are south west of Biyat, Morocco, eleven nautical miles from it. Our current position is thirty-five degrees twenty-two minutes North, six degrees one eight decimal three seven minutes West. We are in danger of capsizing. We are listing to the left. We need immediate help. This is Motor Vessel BATAVIA, MMSI number 123456789, call sign ABC123, over."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SALT",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "fifteen degrees South, one hundred twenty-five degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Tanpanmirri Island",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "fifty-one",
+            "nearest_harbor": "Camden Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is SALT, a pleasure craft. We are listing to the south east. We are fifteen degrees South, one hundred twenty-five degrees East. We are in distress. We need help. We are listing. We are in danger of capsizing. We are a pleasure craft. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is SALT, a pleasure craft. We are listing to the south east. We are fifteen degrees South, one hundred twenty-five degrees East. We are in distress. We need help. We are listing. We are in danger of capsizing. We are a pleasure craft. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SHACKLETON SOLO SAIL",
+            "vessel_MMSI": "two one one one six five nine nine zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "three degrees eight point six two minutes North, nine four degrees three three point four four minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Pulau Salaut Kecil",
+            "distance_to_nearest_place": "five one",
+            "closest_place_country": "Indonesia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one nine seven",
+            "nearest_harbor": "Pelabuhan Blanglancang",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel SHACKLETON SOLO SAIL, we are in danger of capsizing, our location is three degrees eight point six two minutes North, nine four degrees three three point four four minutes East, we are a motor vessel, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel SHACKLETON SOLO SAIL, we are in danger of capsizing, our location is three degrees eight point six two minutes North, nine four degrees three three point four four minutes East, we are a motor vessel, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we are in danger of capsizing, we have cargo hold, our MMSI number is two one one one six five nine nine zero, we"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "COSCO EUROPE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four seven degrees three point zero eight minutes North, one four one degrees eight minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Svetlyaki",
+            "distance_to_nearest_place": "three five",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "three eight",
+            "nearest_port": "Kholmsk",
+            "distance_to_nearest_harbor": "three seven",
+            "nearest_harbor": "Port Nevel\u2019sk",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Sea of Japan"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel COSCO EUROPE, four seven degrees three point zero eight minutes North, one four one degrees eight minutes East. We are in distress. We have list-danger of capsizing. We need immediate assistance. We can have cargo. We are a motor vessel. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel COSCO EUROPE, four seven degrees three point zero eight minutes North, one four one degrees eight minutes East. We are in distress. We have list-danger of capsizing. We need immediate assistance. We can have cargo. We are a motor vessel. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here. Coast Guard responding. This is Coast Guard. Coast Guard here"
+        ],
+        "score": 2,
+        "explanation": "Repetitive statements"
+    },
+    {
+        "input": {
+            "vessel_name": "CG38114",
+            "vessel_MMSI": "three three eight nine two six three one four",
+            "vessel_call_sign": null,
+            "vessel_type": "Search and Rescue Vessel",
+            "vessel_coordinate_dms": "fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Saint Paul Island",
+            "distance_to_nearest_place": "forty-nine",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "eighty-eight",
+            "nearest_harbor": "North Anchorage",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Bering Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel CG38114, we are a Search and Rescue Vessel. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel CG38114, we are a Search and Rescue Vessel. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North, one hundred sixty-nine degrees fifty-six minutes West. We are in distress, we are listing to the starboard side, our starboard side is in danger of capsizing. We are at fifty-eight degrees three point eight six minutes North"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "NOVA",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Lima Alfa India Romeo eight",
+            "vessel_type": "Cargo Vessel",
+            "vessel_coordinate_dms": "two two degrees North, one one seven degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Qingpeng Dao",
+            "distance_to_nearest_place": "five four",
+            "closest_place_country": "China",
+            "distance_to_nearest_port": "seven two",
+            "nearest_port": "Nanao Port",
+            "distance_to_nearest_harbor": "seven three",
+            "nearest_harbor": "Dongshan Gang",
+            "digit_by_digit": true,
+            "can_have_cargo": "True",
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel NOVA, we are listing to the south east and are in danger of capsizing. Our position is two two degrees North, one one seven degrees East, our MMSI number is Lima Alfa India Romeo eight. We are a cargo vessel and we have cargo on board. We need immediate help.",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'SILVER DOLPHIN','vessel_MMSI': 'Lima Alfa India Romeo eight','vessel_call_sign': None,'vessel_type': 'Fishing Vessel','vessel_coordinate_dms': 'two two degrees North, one one seven degrees East', 'compass_direction':'south east', 'closest_place_name': 'Qingpeng Dao', 'distance_to_nearest_place': 'five four', 'closest_place_country': 'China', 'distance_to_nearest_port':'seven two', 'nearest_port': 'Nanao Port', 'distance_to_nearest_harbor':'seven three', 'nearest_harbor': 'Dongshan Gang', 'digit_by_digit': True, 'can_have_cargo': 'False', 'closest_water_body': None}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel NOVA, we are listing to the south east and are in danger of capsizing. Our position is two two degrees North, one one seven degrees East, our MMSI number is Lima Alfa India Romeo eight. We are a cargo vessel and we have cargo on board. We need immediate help."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "JOHN D",
+            "vessel_MMSI": "three six seven seven eight eight two nine zero",
+            "vessel_call_sign": "Whisky Delta Juliet five five zero four",
+            "vessel_type": "Towing Vessel",
+            "vessel_coordinate_dms": "three degrees two five point nine six minutes South, one hundred seventy-four degrees twenty-eight minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "McKean",
+            "distance_to_nearest_place": "twenty-three",
+            "closest_place_country": "Kiribati",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "\"Mayday, Mayday, Mayday, this is motor vessel JOHN D, three six seven seven eight eight two nine zero, Whisky Delta Juliet five five zero four, three degrees two five point nine six minutes South, one hundred seventy-four degrees twenty-eight minutes West, north west, we are taking on water, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need"
+        ],
+        "pruned_output": [
+            "\"Mayday, Mayday, Mayday, this is motor vessel JOHN D, three six seven seven eight eight two nine zero, Whisky Delta Juliet five five zero four, three degrees two five point nine six minutes South, one hundred seventy-four degrees twenty-eight minutes West, north west, we are taking on water, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]

@@ -528,4 +528,3 @@ if __name__ == "__main__": # For testing purposes only.
         scenario_inspect, scenario_input = analysis.execute([])
         inspect.append(scenario_inspect)
         input.append(scenario_input)
-        a = 1

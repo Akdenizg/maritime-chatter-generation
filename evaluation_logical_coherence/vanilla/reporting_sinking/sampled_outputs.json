@@ -1,0 +1,288 @@
+[
+    {
+        "input": {
+            "vessel_name": "ILYNN LIFE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "one two degrees South, five zero degrees East",
+            "compass_direction": "north east",
+            "closest_place_name": "\u00cele Barracouta",
+            "distance_to_nearest_place": "four nine",
+            "closest_place_country": "Madagascar",
+            "distance_to_nearest_port": "eight nine",
+            "nearest_port": "Port de Commerce",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is the motor vessel ILYNN LIFE. We are a pleasure craft. We are located at one two degrees South, five zero degrees East. We are heading north east. We are in distress. We are sinking. We are taking on water. We are in need of immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is the motor vessel ILYNN LIFE. We are a pleasure craft. We are located at one two degrees South, five zero degrees East. We are heading north east. We are in distress. We are sinking. We are taking on water. We are in need of immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are unable to make it to shore. We are requesting immediate assistance. We are"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "LINE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixteen degrees South, fifty-three degrees East",
+            "compass_direction": "south west",
+            "closest_place_name": "Tromelin Island",
+            "distance_to_nearest_place": "fifty",
+            "closest_place_country": "French Southern Territories",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Mer d\u2019 Emeraude"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel LINE, we are sinking, our position is sixteen degrees South, fifty-three degrees East, we need immediate assistance. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel LINE, we are sinking, our position is sixteen degrees South, fifty-three degrees East, we need immediate assistance. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a motor vessel. We are sinking. We are a"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "GERALD F ENGEMANN",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Charlie Zulu two eight four seven",
+            "vessel_type": "Towing Vessel",
+            "vessel_coordinate_dms": "one degrees seventeen minutes North, one hundred twenty-five degrees five two decimal eight five minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Kelurahan Pantai Sagu",
+            "distance_to_nearest_place": "twenty-four",
+            "closest_place_country": "Indonesia",
+            "distance_to_nearest_port": "eighty",
+            "nearest_port": "Pelabuhan Amurang",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Maluku Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel GERALD F ENGEMANN, towing vessel, MMSI 999999999, call sign Whisky Charlie Zulu two eight four seven, one degrees seventeen minutes North, one hundred twenty-five degrees five two decimal eight five minutes East. We are sinking. We need immediate assistance. We are in distress. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel GERALD F ENGEMANN, towing vessel, MMSI 999999999, call sign Whisky Charlie Zulu two eight four seven, one degrees seventeen minutes North, one hundred twenty-five degrees five two decimal eight five minutes East. We are sinking. We need immediate assistance. We are in distress. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in distress. We need immediate assistance. We are in"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "CHERIN III",
+            "vessel_MMSI": "three three eight one two five one nine five",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five one degrees four six decimal three nine minutes North, one two seven degrees five nine decimal five one minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Nalau Island",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "three",
+            "nearest_harbor": "Goldstream Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel Chering III, Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking."
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel Chering III, Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking. We are Motor Vessel Chering III, we are sinking. Motor Vessel Chering III, we are sinking."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "FINFLUENCER",
+            "vessel_MMSI": "three one six zero four seven one eight nine",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Sand Island",
+            "distance_to_nearest_place": "sixteen",
+            "closest_place_country": "Papua New Guinea",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "twenty-five",
+            "nearest_harbor": "Duaga Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Bismarck Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel FINFLUENCER, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel FINFLUENCER, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty minutes East, we are in distress, please help us, we need assistance, we are sinking, we are at four degrees thirty-five minutes South, one hundred forty-eight degrees fifty"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "JOHN HENRY",
+            "vessel_MMSI": "three six seven seven five three four two zero",
+            "vessel_call_sign": "Whisky Delta India nine nine one three",
+            "vessel_type": "Towing Vessel",
+            "vessel_coordinate_dms": "forty-four degrees North, one hundred twenty-five degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Captain Cook Point",
+            "distance_to_nearest_place": "forty",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": "one hundred twenty-five",
+            "nearest_port": "Port of Astoria",
+            "distance_to_nearest_harbor": "forty-four",
+            "nearest_harbor": "Port of Alsea Boat Ramp",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "--  Mayday, Mayday, Mayday. This is motor vessel JOHN HENRY, position forty-four degrees North, one hundred twenty-five degrees West. We are a Towing Vessel. We are sinking. We need help. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking."
+        ],
+        "pruned_output": [
+            "--  Mayday, Mayday, Mayday. This is motor vessel JOHN HENRY, position forty-four degrees North, one hundred twenty-five degrees West. We are a Towing Vessel. We are sinking. We need help. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking. We are in distress. We need immediate help. We are sinking."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "CORMORANT SENTINEL",
+            "vessel_MMSI": "three one six zero four four seven six six",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "fifty-four degrees twenty-four minutes South, thirty-nine degrees four minutes West",
+            "compass_direction": "south west",
+            "closest_place_name": "Main Island",
+            "distance_to_nearest_place": "thirty-eight",
+            "closest_place_country": "South Georgia and South Sandwich Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "forty-four",
+            "nearest_harbor": "Johan Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Scotia Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel CORMORANT SENTINEL, position is fifty-four degrees twenty-four minutes South, thirty-nine degrees four minutes West, we are a Motor Vessel, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel CORMORANT SENTINEL, position is fifty-four degrees twenty-four minutes South, thirty-nine degrees four minutes West, we are a Motor Vessel, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help, we can have cargo, our cargo hold is full of cargo, we are sinking, we are sinking, we need immediate help, please send any help"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SVEA",
+            "vessel_MMSI": "two six five zero zero nine zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "forty-six degrees three minutes South, one hundred sixty-five degrees two point five minutes East",
+            "compass_direction": "south west",
+            "closest_place_name": "West Cape",
+            "distance_to_nearest_place": "fifty-nine",
+            "closest_place_country": "New Zealand",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "sixty-six",
+            "nearest_harbor": "Pickersgill Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, This is Motor Vessel SVEA, Motor Vessel SVEA is sinking, we are at forty-six degrees three minutes South, one hundred sixty-five degrees two point five minutes East, we are in distress, we are sinking, we are sinking, we are sinking, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, This is Motor Vessel SVEA, Motor Vessel SVEA is sinking, we are at forty-six degrees three minutes South, one hundred sixty-five degrees two point five minutes East, we are in distress, we are sinking, we are sinking, we are sinking, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help, we need help"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "ATLANTIS",
+            "vessel_MMSI": "three three eight three seven nine zero one one",
+            "vessel_call_sign": null,
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "zero degrees thirteen minutes North, one hundred seventy-five degrees five zero decimal zero one minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Baker",
+            "distance_to_nearest_place": "thirty-nine",
+            "closest_place_country": "U.S. Outlying Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Sailing Vessel ATLANTIS, we are taking on water. Our position is zero degrees thirteen minutes North, one hundred seventy-five degrees five zero decimal zero one minutes West. We need immediate assistance. We can have cargo. This is Sailing Vessel ATLANTIS, over. ",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'GULF STAR','vessel_MMSI': 'three three eight three seven nine zero one one','vessel_call_sign': 'GULF STAR','vessel_type': 'Sailing Vessel','vessel_coordinate_dms': 'zero degrees thirteen minutes North, one hundred seventy-five degrees five zero decimal zero one minutes West', 'compass_direction': 'north east', 'closest_place_name': 'Baker', 'distance_to_nearest_place': 'thirty-nine', 'closest_place_country': 'U.S. Outlying Islands', 'distance_to_nearest_port': None, 'nearest_port': None, 'distance_to_nearest_harbor': None, 'nearest_harbor': None, 'digit_by_digit': False, 'can_have_cargo': None, 'closest_water_body': None}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Sailing Vessel ATLANTIS, we are taking on water. Our position is zero degrees thirteen minutes North, one hundred seventy-five degrees five zero decimal zero one minutes West. We need immediate assistance. We can have cargo. This is Sailing Vessel ATLANTIS, over."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "HARRY M",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Yankee Romeo two nine three six",
+            "vessel_type": "Towing Vessel",
+            "vessel_coordinate_dms": "five seven degrees five minutes North, one six nine degrees two seven minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Walrus Island",
+            "distance_to_nearest_place": "two nine",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "two nine",
+            "nearest_harbor": "North Anchorage",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Bering Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel HARRY M, towing vessel, we are sinking, our location is five seven degrees five minutes North, one six nine degrees two seven minutes West, we need help, Coast Guard, Coast Guard, Coast Guard, please respond",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'HARRY M','vessel_MMSI': '367 123 456 789','vessel_call_sign': 'Whisky Yankee Romeo two nine three six','vessel_type': 'Towing Vessel','vessel_coordinate_dms': 'five seven degrees five minutes North, one six nine degrees two seven minutes West', 'compass_direction':'south east', 'closest_place_name': 'Walrus Island', 'distance_to_nearest_place': 'two nine', 'closest_place_country': 'United States', 'distance_to_nearest_port': 'one two', 'nearest_port': 'Port of Anchorage', 'distance_to_nearest_harbor': 'two nine', 'nearest_harbor': 'North Anchorage', 'digit_by_digit': True, 'can_have_cargo': None, 'closest_water_body': 'Bering Sea'}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel HARRY M, towing vessel, we are sinking, our location is five seven degrees five minutes North, one six nine degrees two seven minutes West, we need help, Coast Guard, Coast Guard, Coast Guard, please respond"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]

@@ -1,0 +1,307 @@
+[
+    {
+        "input": {
+            "vessel_name": "CHARLENE",
+            "vessel_MMSI": "two one one five zero eight nine seven zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven six degrees one one minutes North, one eight degrees two five point seven two minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Store Koldewey",
+            "distance_to_nearest_place": "three",
+            "closest_place_country": "Greenland",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "three five",
+            "nearest_harbor": "Danmark Havn",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Greenland Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is two one one five zero eight nine seven zero motor vessel CHARLENE. We are under attack by armed pirates at position seven six degrees one one minutes North, one eight degrees two five point seven two minutes West. We are drifting towards Store Koldewey, approximately three nautical miles away. We have no casualties at this time, but require immediate assistance. Over.",
+            "Charlene, this is Coast Guard. Are you able to provide any details about the attackers? Over.",
+            "They are armed with rifles and are boarding our sister ship. Over.",
+            "Copy. We are dispatching a patrol vessel from Danmark Havn. ETA three five nautical miles. Stay on this frequency. Over.",
+            "Copy. Thank you, Coast Guard. Over."
+        ],
+        "score": 4,
+        "explanation": "There should be no mention of a sister ship."
+    },
+    {
+        "input": {
+            "vessel_name": "JBN9",
+            "vessel_MMSI": "one three five seven two six nine two zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four degrees five four minutes South, seven two degrees two seven minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "\u00cele de la Passe",
+            "distance_to_nearest_place": "two seven",
+            "closest_place_country": "British Indian Ocean Territory",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Indian Ocean"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel JBN9, MMSI one three five seven two six nine two zero. We are under attack by armed individuals. Position four degrees five four minutes South, seven two degrees two seven minutes East. They are attempting to board. Requesting immediate military assistance. Over.",
+            "JBN9, this is Coast Guard. We have received your distress call. What is the current situation on board? Over.",
+            "They have managed to board the vessel. We have no control of the vessel. They are attempting to access navigation systems. Requesting immediate military assistance. Over.",
+            "Understood. We are dispatching a patrol vessel and a helicopter. ETA approximately two seven minutes. Are you under command? Over.",
+            "Negative, Coast Guard. We are not under command. They have taken control of the navigation systems. Over.",
+            "Hold tight, assistance is on the way. Can you provide any details about the attackers? Over.",
+            "Negative, Coast Guard. We are unable to do so at this time. We will provide more information as soon as possible. Over."
+        ],
+        "score": 4,
+        "explanation": "Duplicate statement: Requesting immediate military assistance"
+    },
+    {
+        "input": {
+            "vessel_name": "GIG POL",
+            "vessel_MMSI": "three three eight zero eight six five three six",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "one five degrees one six minutes South, one seven nine degrees five four decimal zero four minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Vunikondi",
+            "distance_to_nearest_place": "five two",
+            "closest_place_country": "Fiji",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "eight seven",
+            "nearest_harbor": "Fawn Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel GIG POL, MMSI three three eight zero eight six five three six. We are under attack by armed assailants. Our position is one five degrees one six minutes South, one seven nine degrees five four decimal zero four minutes East, northwest of Vunikondi. We have no military protection and require immediate assistance. Over.",
+            "GIG POL, this is Coast Guard. Are there any injuries on board? Over.",
+            "No injuries at this time. They have disabled our propulsion and are boarding the vessel. Over.",
+            "We have dispatched a naval vessel from Fawn Harbour. ETA two hours. Over.",
+            "Copy. We will maintain radio silence until further instructions. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "STARGAZER VI",
+            "vessel_MMSI": "three one six zero four seven one eight two",
+            "vessel_call_sign": "Charlie Foxtrot Alfa three four eight one",
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "seven degrees fifty-two minutes North, one hundred twenty-one degrees thirty-seven minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Duluguin Point",
+            "distance_to_nearest_place": "twenty-nine",
+            "closest_place_country": "Philippines",
+            "distance_to_nearest_port": "seventy-two",
+            "nearest_port": "Port of Basilan",
+            "distance_to_nearest_harbor": "sixty-four",
+            "nearest_harbor": "Zamboanga Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Sulu Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is sailing vessel STARGAZER VI, MMSI three one six zero four seven one eight two, call sign Charlie Foxtrot Alfa three four eight one. I am under attack by armed men at seven degrees fifty-two minutes North, one hundred twenty-one degrees thirty-seven minutes East. Requesting immediate military assistance. Over.",
+            "This is Coast Guard. Are you under command? Over.",
+            "Negative. The assailants have taken control of the vessel. We are unable to communicate with the crew. Over.",
+            "Understood. A naval vessel is being dispatched from the Port of Basilan. ETA approximately two hours. Over.",
+            "Understood. We will maintain radio silence until further instructions. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "ALLEGRO",
+            "vessel_MMSI": "two one nine zero two two zero nine zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "twenty-four degrees North, seventy-eight degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Owens Town",
+            "distance_to_nearest_place": "nine",
+            "closest_place_country": "Bahamas",
+            "distance_to_nearest_port": "ninety-eight",
+            "nearest_port": "Freeport Harbour",
+            "distance_to_nearest_harbor": "thirty-five",
+            "nearest_harbor": "Lyford Cay Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel ALLEGRO, MMSI two one nine zero two two zero nine zero. We are under attack by armed assailants. Position twenty-four degrees North, seventy-eight degrees West. We have been shot at and have sustained damage to our bridge and engine room. We are unable to maneuver and are drifting. We have twelve crew members on board. We have shut down all systems and are preparing for evacuation. We require immediate assistance. Over.",
+            "ALLEGRO, this is Coast Guard. Are you in contact with any nearby vessels? Over.",
+            "Negative, we are not in contact with any nearby vessels. We have been unable to make any distress calls. Over.",
+            "Understood, ALLEGRO. A Coast Guard patrol vessel is being dispatched to your location. ETA approximately four zero minutes. Maintain radio silence unless necessary. Over.",
+            "Copy, Coast Guard. We will maintain radio silence. Over.",
+            "Copy, ALLEGRO. Keep the radio silent until help arrives. Over."
+        ],
+        "score": 3,
+        "explanation": "They mention during a distress call that they could not make any distress calls."
+    },
+    {
+        "input": {
+            "vessel_name": "TROLL",
+            "vessel_MMSI": "two one one two five one three three zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "two three degrees South, one five five degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Cato Island",
+            "distance_to_nearest_place": "one four",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Coral Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel TROLL, MMSI two one one two five one three three zero. We are under attack by armed assailants. Position two three degrees South, one five five degrees East. They have forced entry into the bridge. Requesting immediate military assistance. Over.",
+            "TROLL, this is Coast Guard. Can you confirm the number of attackers? Over.",
+            "Yes, we have at least four armed assailants. They are armed with automatic weapons. Over.",
+            "Understood. A naval vessel is en route to your location. ETA one hour. Over.",
+            "Copy that, Coast Guard. We will maintain radio silence until further instructions. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "QUALIA",
+            "vessel_MMSI": "three one six zero three zero four four five",
+            "vessel_call_sign": null,
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "forty-one degrees eleven minutes South, one hundred forty-eight degrees fifty-one minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "St Helens Rocks",
+            "distance_to_nearest_place": "twenty-three",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": "ninety-two",
+            "nearest_port": "Port Dalrymple",
+            "distance_to_nearest_harbor": "forty-eight",
+            "nearest_harbor": "Waubs Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is sailing vessel QUALIA, MMSI three one six zero three zero four four five. We are under attack by pirates. Our position is forty-one degrees eleven minutes South, one hundred forty-eight degrees fifty-one minutes East. We have no military protection and require immediate assistance. Over.",
+            "QUALIA, this is Coast Guard. We have dispatched a naval vessel to your location. ETA is approximately one hour. Over.",
+            "Copy that, Coast Guard. We will maintain radio silence until further instructions. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "VB PIONEER",
+            "vessel_MMSI": "two four five five eight six zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven one degrees North, one five nine degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Asiniak Point",
+            "distance_to_nearest_place": "three three",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel VB PIONEER, MMSI two four five five eight six zero zero zero, at seven one degrees North, one five nine degrees West. We are under attack by armed pirates. They have boarded our vessel and are attempting to take control. Requesting immediate military assistance. Over.",
+            "VB PIONEER, this is Coast Guard. We have received your distress call. What is your current situation? Over.",
+            "The pirates have taken control of the bridge. They are demanding that we change course. We are unable to communicate with the crew. Requesting immediate assistance. Over.",
+            "Coast Guard, we are attempting to secure the crew. They are trapped in the engine room. We need assistance to breach the door. Over.",
+            "We are dispatching a helicopter and a patrol boat to your location. ETA fifteen minutes. Are you able to maintain your current course? Over.",
+            "Negative, Coast Guard. The pirates are forcing us to change course. We are heading towards Asiniak Point, approximately thirty-three nautical miles away. Over.",
+            "Understood. Maintain communication and stay safe. Help is on the way. Over.",
+            "Mayday. The pirates have gained full control of the vessel. They are threatening to kill the crew if we do not comply. Over.",
+            "We are closing in on your location. Keep this channel open. We will provide updates when we have more information. Over.",
+            "Mayday. The pirates have taken control of the vessel. We are unable to communicate with the crew. Requesting immediate assistance. Over.",
+            "We have received your distress call. What is your current situation? Over.",
+            "The pirates have taken control of the vessel. They are demanding a ransom. We are unable to communicate with the crew. Requesting immediate assistance. Over.",
+            "We are dispatching a helicopter and a patrol boat to your location. ETA fifteen minutes. Are you able to maintain your current course? Over.",
+            "Negative, Coast Guard"
+        ],
+        "score": 2,
+        "explanation": "Repetitive statements, not a clear end of communication and illogical conversations"
+    },
+    {
+        "input": {
+            "vessel_name": "HALCYON",
+            "vessel_MMSI": "three six seven four nine two one five zero",
+            "vessel_call_sign": "Whisky Delta India six four three six",
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "six six degrees six decimal two nine minutes North, two six degrees one seven decimal six six minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "Rau\u00f0asandshreppur",
+            "distance_to_nearest_place": "six three",
+            "closest_place_country": "Iceland",
+            "distance_to_nearest_port": "six eight",
+            "nearest_port": "Sudureyri Port",
+            "distance_to_nearest_harbor": "seven seven",
+            "nearest_harbor": "Pollurinn",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Irminger Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel HALCYON, MMSI three six seven four nine two one five zero, call sign Whisky Delta India six four three six. We are under attack by armed men at six six degrees six decimal two nine minutes North, two six degrees one seven decimal six six minutes West in the Irminger Sea. We require immediate assistance. Over.",
+            "HALCYON, this is Coast Guard. What is the current situation on board?",
+            "Coast Guard, we are under attack by armed men. They have boarded the vessel and are securing the crew. We require immediate assistance. Over.",
+            "Understood. We are dispatching a patrol vessel from Sudureyri Port. ETA approximately six hours. Can you maintain your current position?",
+            "Negative, Coast Guard. We are unable to maintain our position due to the attack. We have drifted approximately six three nautical miles northwest to Rau\u00f0asandshreppur. Over.",
+            "Stay safe and keep this channel open. Help is en route. Maintain your current transmission and we will provide updates as we receive them. Over.",
+            "Copy, Coast Guard. We will maintain transmission. Over."
+        ],
+        "score": 4,
+        "explanation": "Duplicate statement: We require immediate assistance"
+    },
+    {
+        "input": {
+            "vessel_name": "CENTURY WAVE",
+            "vessel_MMSI": "three five one five four four zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirty-nine degrees North, one hundred twenty degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "She Dao",
+            "distance_to_nearest_place": "twenty-five",
+            "closest_place_country": "China",
+            "distance_to_nearest_port": "forty-one",
+            "nearest_port": "Lushun",
+            "distance_to_nearest_harbor": "fifty-eight",
+            "nearest_harbor": "Dalian Gang",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is three five one five four four zero zero zero motor vessel CENTURY WAVE. We are under attack by armed pirates. Our current position is thirty-nine degrees North, one hundred twenty degrees East, northwest of She Dao, China. We have no military protection and require immediate assistance. Over.",
+            "Century Wave, this is Coast Guard. Are there any injuries on board? Over.",
+            "We have no injuries at this time. Over.",
+            "Understood. A naval vessel is en route to your position. ETA one hour. Over.",
+            "Coast Guard, the pirates have boarded the vessel. They are attempting to take control of the engine room. Over.",
+            "Understood. Additional support is on the way. Over.",
+            "Copy, Coast Guard. We will maintain radio silence. Over.",
+            "Roger. Continue transmission. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    }
+]

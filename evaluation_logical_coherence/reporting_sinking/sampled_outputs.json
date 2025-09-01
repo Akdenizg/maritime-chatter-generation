@@ -1,0 +1,311 @@
+[
+    {
+        "input": {
+            "vessel_name": "LUCKY ENOUGH",
+            "vessel_MMSI": "three six eight three four two nine eight zero",
+            "vessel_call_sign": "Whisky Delta Papa three one seven five",
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "five eight degrees five zero minutes North, six six degrees one three minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "\u00cele Naujakallak",
+            "distance_to_nearest_place": "two",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "eight seven",
+            "nearest_harbor": "Eclipse Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is sailing vessel LUCKY ENOUGH, MMSI three six eight three four two nine eight zero, call sign Whisky Delta Papa three one seven five. We are at five eight degrees five zero minutes North, six six degrees one three minutes West, two nautical miles south east of \u00cele Naujakallak, Canada. I am sinking due to a collision with a large iceberg. Crew is evacuating the vessel. Please provide immediate assistance.",
+            "LUCKY ENOUGH, this is Coast Guard. We are dispatching a rescue vessel and a helicopter. ETA for rescue vessel is one five minutes, ETA for helicopter is one one minutes. Please confirm the number of crew and their condition.",
+            "There are seven crew members on board. All crew members are accounted for and evacuating the vessel. Please advise if there are any medical conditions or injuries.",
+            "Copy that. We are aware of the situation and are preparing for evacuation. Please advise if there are any special needs or accommodations.",
+            "We are equipped with life rafts and emergency beacons. Please advise if there are any additional resources available.",
+            "We will monitor this channel for further updates. Coast Guard out."
+        ],
+        "score": 3,
+        "explanation": "Lots of 'Please advise' statements said by the both parties."
+    },
+    {
+        "input": {
+            "vessel_name": "TUGNACIOUS",
+            "vessel_MMSI": "three three eight one five nine six zero three",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five four degrees five seven decimal zero four minutes North, one five nine degrees four six decimal zero minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Turner Island",
+            "distance_to_nearest_place": "four",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "four eight",
+            "nearest_harbor": "Albatross Anchorage",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel TUGNACIOUS, MMSI three three eight one five nine six zero three. We are at five four degrees five seven decimal zero four minutes North, one five nine degrees four six decimal zero minutes West. We are taking on water and sinking rapidly due to a collision with another vessel. Requesting immediate assistance. Over.",
+            "TUGNACIOUS, this is Coast Guard. We have received your distress call. Please provide details on the extent of damage and number of persons onboard. Over.",
+            "Coast Guard, we have one five crew onboard. The vessel is listing heavily and taking on water rapidly. The situation is critical. Over.",
+            "Understood. Rescue vessels are en route. ETA one hour. Please keep us updated on the situation. Over.",
+            "Roger that, Coast Guard. We will keep you informed. Thank you for your help. Over.",
+            "Coast Guard out. Stay safe, TUGNACIOUS."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "BLUE SKY",
+            "vessel_MMSI": "two one one seven two zero nine six zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five degrees North, one hundred seventy degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Jaluit",
+            "distance_to_nearest_place": "thirty-seven",
+            "closest_place_country": "Marshall Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one hundred eighteen",
+            "nearest_harbor": "Delap Main Dock",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Western Central Pacific Ocean - Kiribati"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel BLUE SKY, MMSI two one one seven two zero nine six zero. We are at five degrees North, one hundred seventy degrees East, thirty-seven nautical miles south east of Jaluit. I am sinking due to a severe storm. Requesting immediate assistance.",
+            "BLUE SKY, this is Coast Guard. We copy your distress call. What is your current situation and number of persons on board?",
+            "We are taking on water rapidly and listing to starboard. The bow is almost under. Twelve crew members on board. One injured, minor head injury.",
+            "Understood. Rescue vessels are en route. ETA is three hours. Can you abandon the vessel?",
+            "We are preparing to abandon the vessel. We have deployed liferafts and are readying the evacuation. We will attempt to send a distress location signal.",
+            "Affirmative, Coast Guard. Maintain your position and await our arrival. We will provide updates as more information becomes available.",
+            "Copy that, Coast Guard. We will maintain our position and await rescue. Thank you for your assistance. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "FLORA",
+            "vessel_MMSI": "two seven seven one eight eight six two zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "six nine degrees three four decimal zero seven minutes North, one six three degrees three four minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "Kopkakisak Island",
+            "distance_to_nearest_place": "two two",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel FLORA, MMSI two seven seven one eight eight six two zero. We are located at six nine degrees three four decimal zero seven minutes North, one six three degrees three four minutes West, two two nautical miles north west of Kopkakisak Island. We are sinking due to a hull breach. Requesting immediate assistance. Over.",
+            "FLORA, this is Coast Guard. We copy your distress call. What is your current condition and number of persons on board? Over.",
+            "We have one seven crew members on board. The hull breach is rapidly worsening. Water is flooding the engine room and we are unable to maneuver. Requesting urgent rescue. Over.",
+            "Understood. Rescue vessel and helicopter are en route. ETA approximately three five minutes. Maintain your position and keep us updated on your situation. Over.",
+            "Roger, Coast Guard. We will maintain our position and update you as the situation develops. Over.",
+            "Copy that, FLORA. We will keep monitoring your location and provide assistance as soon as possible. Over.",
+            "Thank you, Coast Guard. We will keep you informed of any changes. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "SM EMERALD",
+            "vessel_MMSI": "three seven four nine three six zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "two six degrees nine point one seven minutes South, four eight degrees one zero minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Ilha do Pirata",
+            "distance_to_nearest_place": "one seven",
+            "closest_place_country": "Brazil",
+            "distance_to_nearest_port": "two three",
+            "nearest_port": "Terminal de Uso Privado Itapo\u00e1",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is three seven four nine three six zero zero zero motor vessel SM EMERALD, located at two six degrees nine point one seven minutes South, four eight degrees one zero minutes West, one seven nautical miles north east of Ilha do Pirata. We are sinking due to a collision with another vessel. Requesting immediate assistance. Over.",
+            "SM EMERALD, this is Coast Guard. We received your Mayday. How many people are on board and what is your current condition? Over.",
+            "We have one two crew members on board. The vessel is taking on water rapidly and is listing heavily. We are attempting to control the flooding but we need assistance. Over.",
+            "Copy that. We are dispatching a rescue vessel and a helicopter. ETA of rescue vessel is one hour and ETA of helicopter is three five minutes. Any injuries reported? Over.",
+            "No injuries yet but the situation is critical. We are preparing to abandon the vessel. Over.",
+            "Understood. Maintain your current position and await further instructions. Over.",
+            "Roger that. We will stay put and await your assistance. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "BOATERLIVE",
+            "vessel_MMSI": "three six eight three four zero nine two zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven two degrees North, one seven eight degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Mys Florens",
+            "distance_to_nearest_place": "five one",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "East Siberian Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel BOATERLIVE, MMSI three six eight three four zero nine two zero. We are at seven two degrees North, one seven eight degrees East. I am sinking due to a hull breach. Requesting immediate assistance. Over.",
+            "BOATERLIVE, this is Coast Guard. We copy your Mayday. Please provide details on the extent of the hull breach and any immediate assistance you require. Over.",
+            "Hull breach is severe, multiple compartments are flooded. Vessel is listing heavily. We have four crew members onboard, one is injured. Requesting immediate assistance for evacuation and medical aid. Over.",
+            "Understood. Rescue vessel is en route, ETA one hour. Medical aid is also being arranged. Keep us updated on the situation. Over.",
+            "Roger, Coast Guard. We will keep you informed of any changes. Thank you for your assistance. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "MARLIN",
+            "vessel_MMSI": "two one one eight five three three three zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five seven degrees North, nine degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Gr\u00f8nh\u00f8j",
+            "distance_to_nearest_place": "one nine",
+            "closest_place_country": "Denmark",
+            "distance_to_nearest_port": "two seven",
+            "nearest_port": "Hirtshals Port",
+            "distance_to_nearest_harbor": "three zero",
+            "nearest_harbor": "Hanstholm Havn",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel MARLIN, MMSI two one one eight five three three three zero. We are at five seven degrees North, nine degrees East. We are sinking due to a hull breach. Requesting immediate assistance. Over.",
+            "MARLIN, this is Coast Guard. We copy your distress call. Please provide details on the extent of the hull breach and the number of persons on board. Over.",
+            "Coast Guard, we have three crew members on board. The hull breach is in the engine room, and the flooding is rapid. Vessel is listing heavily. We are deploying liferafts. Over.",
+            "Understood. Rescue vessels are en route. ETA one hour. Please maintain communication and keep us updated. Over.",
+            "Roger that, Coast Guard. We are preparing to abandon the vessel. Any specific instructions? Over.",
+            "We are coordinating with the rescue vessels. They will provide further instructions upon arrival. Maintain communication and keep us updated. Over.",
+            "Copy that, Coast Guard. We will keep you informed. Over.",
+            "Roger. Maintain communication. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "ABSEAS",
+            "vessel_MMSI": "three three eight three three zero two five seven",
+            "vessel_call_sign": "Alfa Bravo Sierra Echo Alfa Sierra",
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "seven zero degrees North, one six zero degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Point Belcher",
+            "distance_to_nearest_place": "one four",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is pleasure craft ABSEAS, call sign Alfa Bravo Sierra Echo Alfa Sierra. MMSI three three eight three three zero two five seven. We are at seven zero degrees North, one six zero degrees West, one four nautical miles north west of Point Belcher. We are sinking due to a sudden hull breach. Immediate assistance required. Over.",
+            "ABSEAS, this is Coast Guard. We copy your Mayday. Assistance is on the way. ETA two hours. Please provide updates on the breach and the condition of your vessel. Over.",
+            "Hull breach is large and rapidly expanding. Vessel is taking on water quickly. We are attempting to stabilize but the situation is critical. Over.",
+            "Understood. Rescue vessels will arrive as soon as possible. Please provide updates on the breach and the condition of your vessel. Over.",
+            "Breach is worsening. We have minor injuries onboard. Request immediate medical assistance. Over.",
+            "Medical team will accompany the rescue vessels. Please prepare for possible evacuation. Over.",
+            "We are preparing the passengers and crew for evacuation. Thank you for your assistance. Over."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "PAPA JOE DREDGE",
+            "vessel_MMSI": "three six seven seven one seven six six zero",
+            "vessel_call_sign": "Whisky Delta India six three three eight",
+            "vessel_type": "Tugboat",
+            "vessel_coordinate_dms": "one eight degrees two six point six three minutes North, seven seven degrees one minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Tower Hill",
+            "distance_to_nearest_place": "two",
+            "closest_place_country": "Jamaica",
+            "distance_to_nearest_port": "two two",
+            "nearest_port": "Port Rhodes",
+            "distance_to_nearest_harbor": "three two",
+            "nearest_harbor": "Port Royal Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Rio Nuevo Bay"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is three six seven seven one seven six six zero tugboat PAPA JOE DREDGE. Call sign Whisky Delta India six three three eight. We are at one eight degrees two six point six three minutes North, seven seven degrees one minutes West, two nautical miles east of Tower Hill. We are sinking due to a sudden hull breach. Requesting immediate assistance.",
+            "PAPA JOE DREDGE, this is Coast Guard. We received your distress call. How many crew members are onboard and are there any injuries?",
+            "We have two crew members onboard and one is injured. The situation is critical.",
+            "Understood. We are dispatching a rescue vessel and a helicopter to your location. ETA for rescue vessel is three five minutes, ETA for helicopter is one one minutes. Please provide updates on the sinking vessel's position and status.",
+            "We are losing control of the vessel. It is listing heavily and the hull breach is expanding. We are preparing to abandon ship.",
+            "Copy that. Maintain position and keep us updated. Rescue vessel and helicopter are on their way.",
+            "We will continue to provide updates. Are there any available resources nearby?",
+            "Coast Guard is coordinating with nearby vessels for assistance. Please keep us informed of your situation.",
+            "We will update you as soon as possible. Thank you, Coast Guard."
+        ],
+        "score": 4,
+        "explanation": "Are there any available resources nearby? This question is not logical."
+    },
+    {
+        "input": {
+            "vessel_name": "NEY",
+            "vessel_MMSI": "two four four zero four three five nine zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "two seven degrees North, three five degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Jaz\u0101\u2019ir \u015eila\u2018",
+            "distance_to_nearest_place": "eight",
+            "closest_place_country": "Saudi Arabia",
+            "distance_to_nearest_port": "eight nine",
+            "nearest_port": "Safaga Maritime Port",
+            "distance_to_nearest_harbor": "nine zero",
+            "nearest_harbor": "M\u012bn\u0101\u2019 Saf\u0101j\u0101",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel NEY, MMSI two four four zero four three five nine zero. We are at two seven degrees North, three five degrees East, eight nautical miles south east of Jaz\u0101\u2019ir \u015eila\u2018. I am sinking due to a hull breach. Requesting immediate assistance.",
+            "NEY, this is Coast Guard. What is the extent of the breach and the number of persons on board?",
+            "Coast Guard, the hull breach is severe and there is risk of further structural failure. Thirty-seven crew members on board.",
+            "Understood. Rescue vessels are en route. ETA is one hour. Can you abandon the vessel?",
+            "We are attempting to abandon the vessel but the weather is rough and the lifeboats are taking time to deploy. Requesting urgent evacuation.",
+            "We have dispatched a helicopter with the rescue vessels. It will attempt to hoist the crew from the vessel. Please keep them together and provide updates on the injury status.",
+            "Understood, Coast Guard. We will keep you updated. The situation is critical. Crew is preparing for possible evacuation."
+        ],
+        "score": 4,
+        "explanation": "We have dispatched a helicopter with the rescue vessels. Instead of with, and is better."
+    }
+]

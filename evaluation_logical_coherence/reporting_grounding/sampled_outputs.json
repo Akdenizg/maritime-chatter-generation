@@ -1,0 +1,319 @@
+[
+    {
+        "input": {
+            "vessel_name": "HEL157",
+            "vessel_MMSI": "two six one zero zero one six two zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "two seven degrees North, one two zero degrees East",
+            "compass_direction": "south west",
+            "closest_place_name": "Xitai Dao",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "China",
+            "distance_to_nearest_port": "six one",
+            "nearest_port": "Wenzhou",
+            "distance_to_nearest_harbor": "one seven",
+            "nearest_harbor": "Shacheng Gang",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel HEL157, MMSI two six one zero zero one six two zero. We are aground at position two seven degrees North, one two zero degrees East, south west of Xitai Dao, China. We require immediate assistance.",
+            "This is Coast Guard. What part of your vessel is aground?",
+            "Vessel is aground aft. We have limited draft and cannot refloat.",
+            "Understood. What is the status of your crew?",
+            "All crew members are safe. We have nine persons onboard.",
+            "Understood. What is the nature of the disaster?",
+            "We have heavy list and flooding of ballast tank.",
+            "Understood. We will dispatch tug assistance from Wenzhou. ETA is six one minutes.",
+            "Roger. We will stand by on this channel.",
+            "Roger. Coast Guard will continue monitoring. Please keep us updated."
+        ],
+        "score": 2,
+        "explanation": "What is the nature of the disaster?. The question is not logical."
+    },
+    {
+        "input": {
+            "vessel_name": "ELANDRA SPRUCE",
+            "vessel_MMSI": "five three eight zero zero six seven one nine",
+            "vessel_call_sign": "Victor seven Juliet Mike five",
+            "vessel_type": "Tanker",
+            "vessel_coordinate_dms": "seventy degrees five three decimal two four minutes North, one hundred fifty-three degrees forty-six minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Logashkino",
+            "distance_to_nearest_place": "three",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "one hundred eighty-nine",
+            "nearest_port": "Ambarchik",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": "True",
+            "closest_water_body": "East Siberian Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is tanker Elandra Spruce, MMSI five three eight zero zero six seven one nine, call sign Victor seven Juliet Mike five. We are aground on East Siberian Sea, seventy degrees five three decimal two four minutes North, one hundred fifty-three degrees forty-six minutes East, three nautical miles north west of Logashkino. We are in ballast. Requesting immediate assistance.",
+            "Elandra Spruce, this is Coast Guard. We have dispatched aerial support to your location. ETA is three hours. Are there any injuries?",
+            "Negative, no injuries reported. We have twelve crew members aboard. We are jettisoning ballast.",
+            "Elandra Spruce, do not jettison ballast. A tug has been dispatched from Ambarchik, ETA one hundred eighty-nine hours. Maintain communication on this channel.",
+            "Understood. Thank you, Coast Guard."
+        ],
+        "score": 3,
+        "explanation": "Jettisoning ballast is not logical."
+    },
+    {
+        "input": {
+            "vessel_name": "KITLI",
+            "vessel_MMSI": "three three eight zero seven two zero three six",
+            "vessel_call_sign": null,
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "six three degrees four three minutes North, seven two degrees two six decimal four seven minutes West",
+            "compass_direction": "north west",
+            "closest_place_name": "Hector Island",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": "one one four",
+            "nearest_port": "Deception Bay Port",
+            "distance_to_nearest_harbor": "two three",
+            "nearest_harbor": "Bedford Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is sailing vessel KITLI, MMSI three three eight zero seven two zero three six. I am aground in the vicinity of Hector Island, position six three degrees four three minutes North, seven two degrees two six decimal four seven minutes West. I require immediate assistance.",
+            "KITLI, this is Coast Guard. Roger Mayday. What part of your vessel is aground?",
+            "Coast Guard, I am aground forward. I have two crew members and we are safe. We require tug assistance.",
+            "Understood. Coast Guard is dispatching tug assistance from Deception Bay Port. ETA is one hour. Do you require any medical assistance?",
+            "No, we do not require any medical assistance.",
+            "Understood. Do not attempt to refloat the vessel on your own. Stand by for further instructions.",
+            "Understood. Thank you, Coast Guard."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "AMALUR",
+            "vessel_MMSI": "two one one one four three three seven zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "six degrees South, one zero six degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Sawarna",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Indonesia",
+            "distance_to_nearest_port": "five five",
+            "nearest_port": "Indonesia Bulk Terminal",
+            "distance_to_nearest_harbor": "six one",
+            "nearest_harbor": "Pelabuhan Sunda Kelapa",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel AMALUR, MMSI two one one one four three three seven zero. We are aground at position six degrees South, one zero six degrees East. We are about one nautical mile south east of Sawarna. We require immediate assistance.",
+            "AMALUR, this is Coast Guard. What part of your vessel is aground?",
+            "We are aground forward.",
+            "Are there any injuries on board?",
+            "Negative, no injuries.",
+            "Requesting helicopter with doctor.",
+            "Understood. Helicopter will arrive within one hour. Tug assistance is enroute. Requesting further assistance.",
+            "We require further assistance.",
+            "Indonesia Bulk Terminal is the nearest port. Distance is five five nautical miles. We are enroute to assist.",
+            "Thank you. We will stand by on this channel."
+        ],
+        "score": 2,
+        "explanation": "No injuries and helicopter with doctor is requested. Coast Guard is requesting assitance."
+    },
+    {
+        "input": {
+            "vessel_name": "NORDIC CALLAO",
+            "vessel_MMSI": "three five three four zero two zero zero zero",
+            "vessel_call_sign": "three Echo Charlie Bravo four",
+            "vessel_type": "Tanker",
+            "vessel_coordinate_dms": "seventy-seven degrees North, one hundred three degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Mys Lena",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": "True",
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is tanker NORDIC CALLAO, MMSI three five three four zero two zero zero zero, call sign three Echo Charlie Bravo four. We are aground at position seventy-seven degrees North, one hundred three degrees East. We have a broken propeller shaft and we are taking on water. We require immediate assistance.",
+            "NORDIC CALLAO, this is Coast Guard. We received your distress call. Please confirm your location.",
+            "We are aground at position seventy-seven degrees North, one hundred three degrees East.",
+            "Understood. Dispatching rescue vessels to your location. ETA is two hours. Maintain communication on this channel.",
+            "Standing by on VHF Channel one six."
+        ],
+        "score": 4,
+        "explanation": "Confirming location after it is stated is not logical"
+    },
+    {
+        "input": {
+            "vessel_name": "SEEKER",
+            "vessel_MMSI": "three one six zero four two nine four eight",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-eight degrees North, sixty degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Mys Sin\u2019kin Nos",
+            "distance_to_nearest_place": "five",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "one hundred seventy-three",
+            "nearest_port": "Nar Yan-Mar",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SEEKER, MMSI three one six zero four two nine four eight. We are aground at sixty-eight degrees North, sixty degrees East. We require immediate assistance.",
+            "This is Coast Guard. What part of your vessel is aground?",
+            "We are aground forward.",
+            "Is there any damage to your vessel?",
+            "Negative. No damage reported.",
+            "Are there any injuries on board?",
+            "Negative. No injuries reported.",
+            "Requesting tug assistance and pumps to control flooding.",
+            "Roger that. We are dispatching tug and pumps to your location. ETA is three hours. Maintain communication on this channel.",
+            "Roger. SEEKER out."
+        ],
+        "score": 4,
+        "explanation": "Negative. No injuries reported. Requesting tug assistance and pumps to control flooding. These sentences should be said by the same party."
+    },
+    {
+        "input": {
+            "vessel_name": "AVANTI",
+            "vessel_MMSI": "three six eight two one three zero eight zero",
+            "vessel_call_sign": "Whisky Delta Mike five one five two",
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "one one degrees six minutes North, one two five degrees three nine point four one minutes East",
+            "compass_direction": "south west",
+            "closest_place_name": "Butig",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Philippines",
+            "distance_to_nearest_port": "one four one",
+            "nearest_port": "Gubat Port",
+            "distance_to_nearest_harbor": "one zero",
+            "nearest_harbor": "Pambuhan Harbor",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is sailing vessel AVANTI, MMSI three six eight two one three zero eight zero, call sign Whisky Delta Mike five one five two. We are aground at position one one degrees six minutes North, one two five degrees three nine point four one minutes East. Requesting immediate assistance.",
+            "AVANTI, this is Coast Guard. What part of your vessel is aground?",
+            "Vessel is aground aft.",
+            "Is the vessel taking on water?",
+            "No, vessel is not taking on water.",
+            "Do you have any injuries on board?",
+            "Negative, no injuries reported.",
+            "Have you notified any tug companies?",
+            "Negative, have not notified any tug companies.",
+            "Coast Guard will dispatch a tug from Pambuhan Harbor. ETA is within two hours.",
+            "Thank you Coast Guard. We will standby on this channel."
+        ],
+        "score": 3,
+        "explanation": "Have you notified any tug companies? Question does not make sense."
+    },
+    {
+        "input": {
+            "vessel_name": "SIR CARMA SUE",
+            "vessel_MMSI": "three six eight zero five two six six zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five two degrees one nine minutes North, one five six degrees two three decimal one four minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Bol\u2019sheretsk",
+            "distance_to_nearest_place": "seven",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "nine two",
+            "nearest_port": "Morskoy Port Petropavlovsk-Kamchatskiy",
+            "distance_to_nearest_harbor": "nine two",
+            "nearest_harbor": "Petropavlovskaya Guba",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Sea of Okhotsk"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SIR CARMA SUE, MMSI three six eight zero five two six six zero. We are aground at five two degrees one nine minutes North, one five six degrees two three decimal one four minutes East, seven nautical miles south east of Bol\u2019sheretsk, Russia. We are aground on the port side. We require tug assistance. Over.",
+            "SIR CARMA SUE, this is Coast Guard. We will dispatch tug assistance. ETA is nine two minutes. Over.",
+            "Roger, we are aground on the port side and require tug assistance. Over.",
+            "Roger. We will dispatch tug assistance. ETA is nine two minutes. Stand by on this channel. Over."
+        ],
+        "score": 3,
+        "explanation": "Repetitive statements"
+    },
+    {
+        "input": {
+            "vessel_name": "TEAM X FISHING",
+            "vessel_MMSI": "two six five eight one three two four zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven zero degrees North, six eight degrees West",
+            "compass_direction": "south east",
+            "closest_place_name": "Down Fall Island",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "three one",
+            "nearest_harbor": "Ravenscraig Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel TEAM X FISHING, MMSI two six five eight one three two four zero. We are aground at position seven zero degrees North, six eight degrees West, one nautical mile south east of Down Fall Island. We require immediate assistance.",
+            "TEAM X FISHING, this is Coast Guard. What part of your vessel is aground?",
+            "Aground amidships.",
+            "Are there any injuries on board?",
+            "Negative, no injuries.",
+            "Requesting tug assistance and medical assistance if needed.",
+            "Tug assistance is on the way. ETA is three hours. We will provide you with more details as they become available.",
+            "Roger. Thank you."
+        ],
+        "score": 4,
+        "explanation": "Negative. No injuries reported. Requesting tug assistance and pumps to control flooding. These sentences should be said by the same party."
+    },
+    {
+        "input": {
+            "vessel_name": "CAPE ALTIUS",
+            "vessel_MMSI": "two zero nine eight eight eight zero zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Cargo Vessel",
+            "vessel_coordinate_dms": "sixty-five degrees two seven point eight nine minutes North, eighty-six degrees fifty-nine minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Cape Dobbs",
+            "distance_to_nearest_place": "fourteen",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "twelve",
+            "nearest_harbor": "Berthie Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": "True",
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is cargo vessel CAPE ALTIUS, MMSI two zero nine eight eight eight zero zero zero. We are aground at sixty-five degrees two seven point eight nine minutes North, eighty-six degrees fifty-nine minutes West, fourteen nautical miles north east of Cape Dobbs. We require immediate assistance.",
+            "This is Coast Guard. What is the extent of your casualties?",
+            "We have six crew members injured.",
+            "Are there any other hazards?",
+            "Negative, hazard. We are jettisoning cargo to refloat.",
+            "Coast Guard will dispatch rescue vessel to your location. Estimated time of arrival is two hours. Maintain communication on this channel.",
+            "Understood. We will stand by on this channel."
+        ],
+        "score": 4,
+        "explanation": "What is the extent of your casualties? Instead of this, injuries can be asked."
+    }
+]

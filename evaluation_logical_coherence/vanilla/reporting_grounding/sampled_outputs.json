@@ -1,0 +1,282 @@
+[
+    {
+        "input": {
+            "vessel_name": "SANSEI",
+            "vessel_MMSI": "three one six zero one three eight one eight",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seventy-nine degrees three minutes North, sixteen degrees one five decimal four seven minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Bj\u00f8rnnesholmen",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Svalbard and Jan Mayen",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "thirty-nine",
+            "nearest_harbor": "Vulkanhamna",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel SANSEI, we are at seventy-nine degrees three minutes North, sixteen degrees one five decimal four seven minutes East. We are in distress, we are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel SANSEI, we are at seventy-nine degrees three minutes North, sixteen degrees one five decimal four seven minutes East. We are in distress, we are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are on fire. We are on fire, we are on fire, we are"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SVELA",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven three degrees North, nine eight degrees West",
+            "compass_direction": "north east",
+            "closest_place_name": "Mecham Island",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one zero two",
+            "nearest_harbor": "Tigumiavik Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel SVELA. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel SVELA. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire. We are on fire"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "CAPT THANH IV",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Delta Echo eight zero three two",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirty-one degrees two zero decimal five one minutes North, thirty-one degrees five one decimal eight three minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Jaz\u012brat Y\u016bnus",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Egypt",
+            "distance_to_nearest_port": "eight",
+            "nearest_port": "Damietta Port",
+            "distance_to_nearest_harbor": "twenty-three",
+            "nearest_harbor": "Port Said Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel CAPT THANH IV. We are currently at thirty-one degrees two zero decimal five one minutes North, thirty-one degrees five one decimal eight three minutes East. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel CAPT THANH IV. We are currently at thirty-one degrees two zero decimal five one minutes North, thirty-one degrees five one decimal eight three minutes East. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need immediate help. We are a motor vessel with a capacity of eight hundred and thirty six passengers and three hundred and ninety two crew members. We are currently in the process of grounding. We need"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "GAS CAPRICORN",
+            "vessel_MMSI": "five six three one four four three zero zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Tanker",
+            "vessel_coordinate_dms": "five zero degrees North, one four three degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Pogranichnoye",
+            "distance_to_nearest_place": "four",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "seven zero",
+            "nearest_port": "Mys Rogatyy Oktyabrskiy",
+            "distance_to_nearest_harbor": "one five eight",
+            "nearest_harbor": "Zaliv Sovetskaya Gavan\u2019",
+            "digit_by_digit": true,
+            "can_have_cargo": "True",
+            "closest_water_body": "Sea of Okhotsk"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel GAS CAPRICORN, five zero degrees North, one four three degrees East, south east, we are a tanker, we are carrying crude oil, we are in distress, we have run aground, we need help, we are taking on water, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing,"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel GAS CAPRICORN, five zero degrees North, one four three degrees East, south east, we are a tanker, we are carrying crude oil, we are in distress, we have run aground, we need help, we are taking on water, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing, we are listing,"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "FREELANCE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Passenger Vessel",
+            "vessel_coordinate_dms": "three eight degrees North, two two degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Ay\u00eda Aikater\u00edni",
+            "distance_to_nearest_place": "two",
+            "closest_place_country": "Greece",
+            "distance_to_nearest_port": "five",
+            "nearest_port": "Agios Contstantinos Port",
+            "distance_to_nearest_harbor": "two seven",
+            "nearest_harbor": "Lim\u00e9nas It\u00e9as",
+            "digit_by_digit": true,
+            "can_have_cargo": "True",
+            "closest_water_body": "rmos Achino"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is 235567890, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our call sign is GDFV, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is 235567890, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our call sign is GDFV, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is 235567890, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our call sign is GDFV, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is 235567890, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our call sign is GDFV, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is 235567890, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our call sign is GDFV, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is 235567890, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our call sign is GDFV, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, we are on fire, our position is three eight degrees North, two two degrees East, we need immediate assistance, we are a passenger vessel FREELANCE, our MMSI number is"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "OGENKI",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "three zero degrees South, one five three degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Hearnes Lake Beach",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": "one five zero",
+            "nearest_port": "Karragarra Ferry Terminal",
+            "distance_to_nearest_harbor": "one zero",
+            "nearest_harbor": "Coffs Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel OGENKI, Motor Vessel OGENKI, three zero degrees South, one five three degrees East, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel OGENKI, Motor Vessel OGENKI, three zero degrees South, one five three degrees East, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor vessel, we are a motor"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "RAELEEN MICHELLE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Delta Echo two nine four five",
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "fifty-five degrees five minutes South, seventy-one degrees zero decimal zero eight minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Isla Treble",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Chile",
+            "distance_to_nearest_port": "seventy-seven",
+            "nearest_port": "Bahia Harris",
+            "distance_to_nearest_harbor": "twelve",
+            "nearest_harbor": "Puerto Enga\u00f1o",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel RAELEEN MICHELLE. We are a Fishing Vessel. We are currently in fifty-five degrees five minutes South, seventy-one degrees zero decimal zero eight minutes West. We have grounded on a rocky outcrop. We are in need of assistance. We have been in contact with the Coast Guard. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel RAELEEN MICHELLE. We are a Fishing Vessel. We are currently in fifty-five degrees five minutes South, seventy-one degrees zero decimal zero eight minutes West. We have grounded on a rocky outcrop. We are in need of assistance. We have been in contact with the Coast Guard. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of immediate assistance. We are in need of"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SUS",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seventy-seven degrees two three point one four minutes North, one hundred two degrees two zero point three three minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Ostrov Vecherniy",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel SUS. We are aground. We are in distress. We are taking on water. Our position is seventy-seven degrees two three point one four minutes North, one hundred two degrees two zero point three three minutes East. We are taking on water. We need help. We are aground. We are taking on water. We are in distress. We are aground. We need help. We are taking on water. We are in distress. We are taking on water. We are in distress. We are taking on water. We are aground. We are taking on water. We are in distress. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel SUS. We are aground. We are in distress. We are taking on water. Our position is seventy-seven degrees two three point one four minutes North, one hundred two degrees two zero point three three minutes East. We are taking on water. We need help. We are aground. We are taking on water. We are in distress. We are aground. We need help. We are taking on water. We are in distress. We are taking on water. We are in distress. We are taking on water. We are aground. We are taking on water. We are in distress. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground. We are taking on water. We are aground"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "CG47258",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "twelve degrees North, one hundred nine degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Binh Tay",
+            "distance_to_nearest_place": "one",
+            "closest_place_country": "Vietnam",
+            "distance_to_nearest_port": "fifty-eight",
+            "nearest_port": "Ninh Ch\u1eef",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel CG47258, we are at twelve degrees North, one hundred nine degrees East, north west, we are in distress, we are listing and taking on water, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel CG47258, we are at twelve degrees North, one hundred nine degrees East, north west, we are in distress, we are listing and taking on water, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance, we are requesting immediate assistance"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "ZK11 HOOP OP ZEGEN",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "forty degrees North, one hundred twenty-one degrees East",
+            "compass_direction": "south west",
+            "closest_place_name": "Nandianzi",
+            "distance_to_nearest_place": "four",
+            "closest_place_country": "China",
+            "distance_to_nearest_port": "nineteen",
+            "nearest_port": "Yingkou",
+            "distance_to_nearest_harbor": "sixteen",
+            "nearest_harbor": "Panjin Gang",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Fishing Vessel ZK11 HOOP OP ZEGEN, we are in distress, we are sinking, we are taking on water, we are flooding, we are listing, we are listing to port, we are listing to starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and star"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Fishing Vessel ZK11 HOOP OP ZEGEN, we are in distress, we are sinking, we are taking on water, we are flooding, we are listing, we are listing to port, we are listing to starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and starboard, we are listing to port and star"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]

@@ -1,0 +1,286 @@
+[
+    {
+        "input": {
+            "vessel_name": "CG18007",
+            "vessel_MMSI": "three three eight nine two six six zero seven",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "forty-three degrees North, seven degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "\u00cele de la Tradeli\u00e8re",
+            "distance_to_nearest_place": "thirty-six",
+            "closest_place_country": "France",
+            "distance_to_nearest_port": "thirty-eight",
+            "nearest_port": "Port Camille Rayon",
+            "distance_to_nearest_harbor": "thirty-six",
+            "nearest_harbor": "Port de l'Olivette",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Ligurian Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel CG18007, MMSI three three eight nine two six six zero seven. We are at forty-three degrees North, seven degrees East. We are experiencing a severe technical failure, unable to maneuver, and require immediate assistance.",
+            "CG18007, this is Coast Guard. We are dispatching a tug from Port de l'Olivette, ETA approximately thirty-six nautical miles. Are you able to maintain position?",
+            "Yes, Coast Guard. We are deploying sea anchors to maintain our position. We are also experiencing an issue with our communications systems, so please keep us on the emergency channel.",
+            "Roger, CG18007. We will maintain contact through the emergency channel. Assistance is on the way."
+        ],
+        "score": 4,
+        "explanation": "so please keep us on the emergency channel. Not logical"
+    },
+    {
+        "input": {
+            "vessel_name": "LIFE IS GOOD",
+            "vessel_MMSI": "three six eight zero nine zero two nine zero",
+            "vessel_call_sign": "Whisky Delta Kilo eight zero four three",
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "four two degrees North, six six degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Seal Island",
+            "distance_to_nearest_place": "four three",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "five four",
+            "nearest_harbor": "Clarks Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "The Overfalls"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel LIFE IS GOOD, MMSI three six eight zero nine zero two nine zero, Call Sign Whisky Delta Kilo eight zero four three. Position four two degrees North, six six degrees West. I am experiencing mechanical failure in my propulsion system. I am adrift in The Overfalls.",
+            "This is Coast Guard. What assistance do you require?",
+            "Coast Guard, we require tug assistance to stabilize our heading. We are adrift in The Overfalls.",
+            "Understood. Tug assistance is being dispatched from Clarks Harbour, ETA approximately five four hours. Maintain position and keep us informed."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "TRIPLE D",
+            "vessel_MMSI": "three six eight one nine eight seven four zero",
+            "vessel_call_sign": "Whisky Delta Mike three six zero six",
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "sixty-eight degrees seven minutes North, seventy-four degrees twelve minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Mys Grdiny",
+            "distance_to_nearest_place": "twelve",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "forty",
+            "nearest_port": "Novy Port",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel TRIPLE D, MMSI three six eight one nine eight seven four zero, call sign Whisky Delta Mike three six zero six. I am at sixty-eight degrees seven minutes North, seventy-four degrees twelve minutes East. I am experiencing severe mechanical failure. Our propulsion system has failed and we are drifting north west. Requesting immediate assistance.",
+            "TRIPLE D, this is Coast Guard. We are dispatching a tug from Novy Port, ETA is approximately forty nautical miles. Maintain your current position and keep this channel open for updates.",
+            "Copy that Coast Guard. We are able to deploy emergency equipment and are prepared for potential evacuation. Will keep this channel open for updates.",
+            "Understood, TRIPLE D. Coast Guard out."
+        ],
+        "score": 4,
+        "explanation": "We are able to deploy emergency equipment. Not logical"
+    },
+    {
+        "input": {
+            "vessel_name": "NYNM LC351",
+            "vessel_MMSI": "three six eight three three zero zero nine zero",
+            "vessel_call_sign": "Whisky Delta November nine seven six nine",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "one three degrees four six decimal one nine minutes South, one six eight degrees nine decimal three four minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Telmtig",
+            "distance_to_nearest_place": "two six",
+            "closest_place_country": "Vanuatu",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one four seven",
+            "nearest_harbor": "Port Stanley",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Tai Marino Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel NYNM LC351, call sign Whisky Delta November nine seven six nine, MMSI three six eight three three zero zero nine zero. Position one three degrees four six decimal one nine minutes South, one six eight degrees nine decimal three four minutes East. We have lost power and are adrift. Requesting immediate assistance.",
+            "NYNM LC351, this is Coast Guard. What type of assistance do you require?",
+            "We require assistance to regain power and prevent drifting towards the coast. Our current drift is south east at approximately two knots.",
+            "Understood. We are dispatching a tug from Port Stanley, ETA is approximately one four seven minutes. Maintain position and standby on this channel for further instructions.",
+            "Roger, Coast Guard. We will maintain our current position and standby for further instructions."
+        ],
+        "score": 4,
+        "explanation": "We require assistance to regain power and prevent drifting towards the coast. This can be better phrased."
+    },
+    {
+        "input": {
+            "vessel_name": "TRANSITION",
+            "vessel_MMSI": "three three eight one nine eight six three seven",
+            "vessel_call_sign": null,
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "eight one degrees two zero decimal five two minutes North, six nine degrees four nine minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Mys Kol\u2019zat",
+            "distance_to_nearest_place": "four six",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one five one",
+            "nearest_harbor": "Gavan\u2019 Uyuta",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Kara Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is pleasure craft TRANSITION, MMSI three three eight one nine eight six three seven. We are at eight one degrees two zero decimal five two minutes North, six nine degrees four nine minutes East. My vessel is adrift and I am unable to control its course. I require immediate assistance.",
+            "This is Coast Guard. What assistance do you require?",
+            "Coast Guard, I require tug assistance to stabilize my vessel\u2019s course.",
+            "Roger, TRANSITION. We are dispatching a tug from Gavan\u2019 Uyuta, estimated arrival in one five one minutes. Are you able to maintain current position?",
+            "Yes, we are able to maintain current position for now. We will monitor the situation and update you as needed.",
+            "Understood. Maintain current position and stand by on this channel for further instructions."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "ALGOMA BUFFALO",
+            "vessel_MMSI": "three one six zero three six two two eight",
+            "vessel_call_sign": null,
+            "vessel_type": "Cargo Vessel",
+            "vessel_coordinate_dms": "nineteen degrees North, one hundred five degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Villas la Loma",
+            "distance_to_nearest_place": "ten",
+            "closest_place_country": "Mexico",
+            "distance_to_nearest_port": "forty-seven",
+            "nearest_port": "Manzanillo",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": "True",
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is cargo vessel ALGOMA BUFFALO, MMSI three one six zero three six two two eight. We are at nineteen degrees North, one hundred five degrees West. Our engine has failed and we are drifting south west.",
+            "This is Coast Guard. What assistance do you require?",
+            "We require immediate tug assistance to stabilize our heading. Current drift is south west at approximately two knots.",
+            "Understood. Tug assistance is being dispatched from Manzanillo, ETA forty-seven hours. Please continue to monitor your situation and keep us updated."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "MEGAN ELIZABETH",
+            "vessel_MMSI": "three six eight one nine seven two four zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Towing Vessel",
+            "vessel_coordinate_dms": "five two degrees South, five seven degrees West",
+            "compass_direction": "south east",
+            "closest_place_name": "North East Island",
+            "distance_to_nearest_place": "four six",
+            "closest_place_country": "Falkland Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "four eight",
+            "nearest_harbor": "Stanley Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is three six eight one nine seven two four zero towing vessel MEGAN ELIZABETH. I am at five two degrees South, five seven degrees West. I am experiencing engine failure and am adrift. Requesting immediate assistance.",
+            "MEGAN ELIZABETH, this is Coast Guard. We are dispatching a tug from Stanley Harbour, ETA approximately four hours. Can you maintain position?",
+            "Yes, Coast Guard. We are deploying sea anchors to maintain our drift rate. We will maintain radio contact until assistance arrives.",
+            "Roger, MEGAN ELIZABETH. Coast Guard out. We are relaying your ETA to the tug and advising you to proceed with caution due to rough seas in the area."
+        ],
+        "score": 3,
+        "explanation": " We are relaying your ETA to the tug. Not logical"
+    },
+    {
+        "input": {
+            "vessel_name": "NO BAD IDEAS",
+            "vessel_MMSI": "three one one zero zero one five one zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five three degrees two eight point two six minutes North, one five nine degrees five two point five four minutes East",
+            "compass_direction": "south west",
+            "closest_place_name": "Bol\u2019shoy Kalygir\u2019",
+            "distance_to_nearest_place": "two",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "five two",
+            "nearest_port": "Morskoy Port Petropavlovsk-Kamchatskiy",
+            "distance_to_nearest_harbor": "five two",
+            "nearest_harbor": "Petropavlovskaya Guba",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Bukhta Kalygir"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel NO BAD IDEAS, MMSI three one one zero zero one five one zero. We are at five three degrees two eight point two six minutes North, one five nine degrees five two point five four minutes East. Our steering mechanism has failed and we are drifting south west at three knots. Requesting immediate assistance.",
+            "Coast Guard here. Can you provide more details about your situation?",
+            "Our steering mechanism has failed and we are unable to control our vessel. We are currently drifting south west at three knots. We have attempted to deploy sea anchors to slow our drift, but to no avail.",
+            "Understood. We are dispatching a tug from Petropavlovskaya Guba, estimated time of arrival is five two hours. Maintain current position and keep us updated."
+        ],
+        "score": 3,
+        "explanation": "ETA of 52 hours"
+    },
+    {
+        "input": {
+            "vessel_name": "KIMBEP K",
+            "vessel_MMSI": "three six four nine zero four four nine six",
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "six seven degrees three five point six three minutes North, one six six degrees three five point one seven minutes West",
+            "compass_direction": "south west",
+            "closest_place_name": "Crowbill Point",
+            "distance_to_nearest_place": "three five",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one five six",
+            "nearest_harbor": "Gavan' Litke",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Kotzebue Sound"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is fishing vessel KIMBEP K, MMSI three six four nine zero four four nine six. We are at six seven degrees three five point six three minutes North, one six six degrees three five point one seven minutes West. We are experiencing severe mechanical failure and have lost control of the steering. Requesting immediate assistance.",
+            "KIMBEP K, this is Coast Guard. What type of assistance do you require?",
+            "We require tug assistance to stabilize our heading. Current drift is south west at approximately two knots. We are unable to navigate safely.",
+            "Understood. We will dispatch a tug from Gavan' Litke, estimated arrival in three hours. Maintain position and keep us updated."
+        ],
+        "score": 5,
+        "explanation": ""
+    },
+    {
+        "input": {
+            "vessel_name": "SEAWAYS KENOSHA",
+            "vessel_MMSI": "six three six zero one six nine four nine",
+            "vessel_call_sign": "Delta five India Oscar four",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "six five degrees three zero point five six minutes North, three seven degrees zero minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Ostrov Churnavolok",
+            "distance_to_nearest_place": "two zero",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "six four",
+            "nearest_port": "Rabocheostrovsk",
+            "distance_to_nearest_harbor": "nine eight",
+            "nearest_harbor": "Lapominskaya Gavan\u2019",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "White Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SEAWAYS KENOSHA, MMSI six three six zero one six nine four nine, Call Sign Delta five India Oscar four. Position six five degrees three zero point five six minutes North, three seven degrees zero minutes East. I have a structural failure and require immediate assistance.",
+            "SEAWAYS KENOSHA, this is Coast Guard. What kind of assistance do you require?",
+            "I require emergency towage services to repair the structural damage. My vessel is currently undesignated and I am drifting in the White Sea.",
+            "Understood. We are dispatching a tug from Rabocheostrovsk, estimated arrival in two hours. Please maintain your current position and keep us updated.",
+            "Roger that, Coast Guard. SEAWAYS KENOSHA standing by."
+        ],
+        "score": 3,
+        "explanation": "My vessel is currently undesignate. Not logical"
+    }
+]

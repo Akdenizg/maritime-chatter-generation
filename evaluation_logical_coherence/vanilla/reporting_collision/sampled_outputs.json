@@ -1,0 +1,302 @@
+[
+    {
+        "input": {
+            "vessel_name": "RED HOOK",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Whisky Delta Golf six seven eight two",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "three degrees South, one two eight degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Seruawan",
+            "distance_to_nearest_place": "three",
+            "closest_place_country": "Indonesia",
+            "distance_to_nearest_port": "one nine",
+            "nearest_port": "Pelabuhan Wayame",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel RED HOOK. We are at three degrees South, one two eight degrees East. We are north west of Seruawan, Indonesia. We are three nautical miles away from Pelabuhan Wayame. We are in distress. We collided with an unknown object. We are in need of medical assistance. We are in need of tugs. We are in need of Coast Guard vessels. We are in need of Coast Guard helicopters. We are in need of Coast Guard patrol vessels. We are in need of Coast Guard patrol boats. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel RED HOOK. We are at three degrees South, one two eight degrees East. We are north west of Seruawan, Indonesia. We are three nautical miles away from Pelabuhan Wayame. We are in distress. We collided with an unknown object. We are in need of medical assistance. We are in need of tugs. We are in need of Coast Guard vessels. We are in need of Coast Guard helicopters. We are in need of Coast Guard patrol vessels. We are in need of Coast Guard patrol boats. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol aircraft. We are in need of Coast Guard patrol ships. We are in need of Coast Guard patrol helicopters. We are in need of Coast Guard patrol"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SWEETHEART",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Sailing Vessel",
+            "vessel_coordinate_dms": "seventy-six degrees three four point two eight minutes North, ninety-two degrees four minutes East",
+            "compass_direction": "south east",
+            "closest_place_name": "Ostrov Orlovskiy",
+            "distance_to_nearest_place": "thirty",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Kara Sea",
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is the motor vessel SWEETHEART. We are in the Kara Sea. We are sailing to Ostrov Orlovskiy. We have collided with an unknown object. Our position is seventy-six degrees three four point two eight minutes North, ninety-two degrees four minutes East. We are in distress. We need immediate assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is the motor vessel SWEETHEART. We are in the Kara Sea. We are sailing to Ostrov Orlovskiy. We have collided with an unknown object. Our position is seventy-six degrees three four point two eight minutes North, ninety-two degrees four minutes East. We are in distress. We need immediate assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance. We have no medical assistance"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "HASESTADT STRALSQ",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "one six degrees five three decimal five eight minutes South, one one eight degrees four one decimal two five minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Cunningham Island",
+            "distance_to_nearest_place": "four zero",
+            "closest_place_country": "Australia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is the motor vessel HASESTADT STRALSQ. I had a collision with an unknown object. We are one six degrees five three decimal five eight minutes South, one one eight degrees four one decimal two five minutes East. The collision happened north west. We are a motor vessel. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is the motor vessel HASESTADT STRALSQ. I had a collision with an unknown object. We are one six degrees five three decimal five eight minutes South, one one eight degrees four one decimal two five minutes East. The collision happened north west. We are a motor vessel. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a motor vessel HASESTADT STRALSQ. We have no cargo. We are a"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SSI MARVELOUS",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "Victor seven Alfa four one four four",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "fifty-five degrees North, one hundred sixty-two degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Operl Island",
+            "distance_to_nearest_place": "nine",
+            "closest_place_country": "United States",
+            "distance_to_nearest_port": "one hundred fifty-three",
+            "nearest_port": "Beaver Inlet Sea Port",
+            "distance_to_nearest_harbor": "thirty-four",
+            "nearest_harbor": "King Cove Harbor",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel SSI MARVELOUS. We are at fifty-five degrees North, one hundred sixty-two degrees West. We are a Motor Vessel. We have a collision with an unknown object. We need immediate help. We are a Motor Vessel SSI MARVELOUS. This is Coast Guard. This is Coast Guard. This is Coast Guard. Coast Guard here. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel SSI MARVELOUS. We are at fifty-five degrees North, one hundred sixty-two degrees West. We are a Motor Vessel. We have a collision with an unknown object. We need immediate help. We are a Motor Vessel SSI MARVELOUS. This is Coast Guard. This is Coast Guard. This is Coast Guard. Coast Guard here. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding. Coast Guard responding"
+        ],
+        "score": 2,
+        "explanation": "Repetitive statements"
+    },
+    {
+        "input": {
+            "vessel_name": "SUN RISE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven degrees eighteen minutes North, ninety-three degrees three four decimal three three minutes East",
+            "compass_direction": "south west",
+            "closest_place_name": "Dit-dak",
+            "distance_to_nearest_place": "four",
+            "closest_place_country": "India",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "eleven",
+            "nearest_harbor": "Kondul Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Andaman Sea",
+            "collided_vessel_name": "LOTARIES",
+            "collided_vessel_type": "Motor Vessel"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel SUN RISE. We are in the Andaman Sea, seven degrees eighteen minutes North, ninety-three degrees three four decimal three three minutes East. We are a Motor Vessel SUN RISE. We had a collision with Motor Vessel LOTARIES. We are taking on water. We have ten people on board, including five crew members. We need help. We are in distress. We are in need of immediate assistance. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel SUN RISE. We are in the Andaman Sea, seven degrees eighteen minutes North, ninety-three degrees three four decimal three three minutes East. We are a Motor Vessel SUN RISE. We had a collision with Motor Vessel LOTARIES. We are taking on water. We have ten people on board, including five crew members. We need help. We are in distress. We are in need of immediate assistance. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are in need of immediate rescue. We are in need of immediate medical assistance. We are"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "FWC GULF RANGER",
+            "vessel_MMSI": "three three eight four six zero five zero seven",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "eight one degrees North, one four degrees West",
+            "compass_direction": "south east",
+            "closest_place_name": "Kap Prins Knud",
+            "distance_to_nearest_place": "eight",
+            "closest_place_country": "Greenland",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Wandel Hav",
+            "collided_vessel_name": "LIBERTY OF THE SEAS",
+            "collided_vessel_type": "Passenger Vessel"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel FWC GULF RANGER. We had a collision with Passenger Vessel LIBERTY OF THE SEAS. We are eight miles south east of Kap Prins Knud, Greenland. We are on the Wandel Hav. Our MMSI is three three eight four six zero five zero seven. We need immediate help. We are taking on water. We have six crew members. We need tugs. We need Coast Guard help. We need Coast Guard vessels. We need Coast Guard helicopters. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel FWC GULF RANGER. We had a collision with Passenger Vessel LIBERTY OF THE SEAS. We are eight miles south east of Kap Prins Knud, Greenland. We are on the Wandel Hav. Our MMSI is three three eight four six zero five zero seven. We need immediate help. We are taking on water. We have six crew members. We need tugs. We need Coast Guard help. We need Coast Guard vessels. We need Coast Guard helicopters. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need Coast Guard assistance. We need Coast Guard medical assistance. We need Coast Guard patrol vessels. We need Coast Guard assistance. We need Coast Guard help. We need"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "LADY EM",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Fishing Vessel",
+            "vessel_coordinate_dms": "five seven degrees one two point zero four minutes North, six zero degrees five three point six seven minutes West",
+            "compass_direction": "north east",
+            "closest_place_name": "Orphan Island",
+            "distance_to_nearest_place": "one two",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one nine",
+            "nearest_harbor": "Dawes Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Labrador Sea",
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "<unk> Mayday, Mayday, Mayday. This is <unk> fishing vessel <unk> <unk> calling mayday. We have a collision with <unk> <unk> vessel. We are <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <"
+        ],
+        "pruned_output": [
+            "<unk> Mayday, Mayday, Mayday. This is <unk> fishing vessel <unk> <unk> calling mayday. We have a collision with <unk> <unk> vessel. We are <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "ROCK HALL",
+            "vessel_MMSI": "three six eight one nine three eight three zero",
+            "vessel_call_sign": "Whisky Delta Mike three zero six three",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "six degrees six minutes South, five three degrees two one minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Marie Louise Island",
+            "distance_to_nearest_place": "one three",
+            "closest_place_country": "Seychelles",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one five five",
+            "nearest_harbor": "Victoria Harbour",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null,
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel ROCK HALL. We are six degrees six minutes South, five three degrees two one minutes East. We have a collision with an unknown object. We have three six eight one nine three eight three zero and Whisky Delta Mike three zero six three. We are north east of Marie Louise Island, one three miles away. We are south east of Victoria Harbour, one five five miles away. We are in distress. We need immediate assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel ROCK HALL. We are six degrees six minutes South, five three degrees two one minutes East. We have a collision with an unknown object. We have three six eight one nine three eight three zero and Whisky Delta Mike three zero six three. We are north east of Marie Louise Island, one three miles away. We are south east of Victoria Harbour, one five five miles away. We are in distress. We need immediate assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical assistance. We need immediate medical"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "STRAY CAT",
+            "vessel_MMSI": "three six eight one seven three three six zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "four eight degrees North, one four zero degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Mys Peschanyy",
+            "distance_to_nearest_place": "two five",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "four two",
+            "nearest_port": "Sovetskaya Gavan",
+            "distance_to_nearest_harbor": "four five",
+            "nearest_harbor": "Zaliv Sovetskaya Gavan\u2019",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Sea of Japan",
+            "collided_vessel_name": "CG32127",
+            "collided_vessel_type": "Search and Rescue Vessel"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Pleasure Craft STRAY CAT. We are at four eight degrees North, one four zero degrees East. We had a collision with Search and Rescue Vessel CG32127. We are in distress. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Pleasure Craft STRAY CAT. We are at four eight degrees North, one four zero degrees East. We had a collision with Search and Rescue Vessel CG32127. We are in distress. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "ANNEGINE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four nine degrees North, seven degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Bishop Rock",
+            "distance_to_nearest_place": "three six",
+            "closest_place_country": "United Kingdom",
+            "distance_to_nearest_port": "eight eight",
+            "nearest_port": "Falmouth Harbour",
+            "distance_to_nearest_harbor": "six six",
+            "nearest_harbor": "Porth Senan",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Celtic Sea",
+            "collided_vessel_name": null,
+            "collided_vessel_type": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel Annegeine, four nine degrees North, seven degrees West. We have a collision with an unknown vessel. We have severe damage on our port side. We have an oil leak. We need immediate assistance. We have no casualties. We are in distress. We need immediate help. We need a tug. We need immediate assistance. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel Annegeine, four nine degrees North, seven degrees West. We have a collision with an unknown vessel. We have severe damage on our port side. We have an oil leak. We need immediate assistance. We have no casualties. We are in distress. We need immediate help. We need a tug. We need immediate assistance. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug. We are in distress. We need immediate help. We need a tug"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]

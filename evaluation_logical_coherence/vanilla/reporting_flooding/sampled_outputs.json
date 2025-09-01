@@ -1,0 +1,288 @@
+[
+    {
+        "input": {
+            "vessel_name": "LEILA",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "five Bravo Yankee Uniform five",
+            "vessel_type": "Cargo Vessel",
+            "vessel_coordinate_dms": "nineteen degrees North, ninety-three degrees West",
+            "compass_direction": "north west",
+            "closest_place_name": "Reyes Hernandez Primera Secci\u00f3n",
+            "distance_to_nearest_place": "forty",
+            "closest_place_country": "Mexico",
+            "distance_to_nearest_port": "ninety-one",
+            "nearest_port": "Puerto de Abrigo",
+            "distance_to_nearest_harbor": "forty-five",
+            "nearest_harbor": "Puerto Dos Bocas",
+            "digit_by_digit": false,
+            "can_have_cargo": "True",
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Cargo Vessel LEILA. We are at nineteen degrees North, ninety-three degrees West. We are taking on water in our engine room. We need immediate assistance.",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'HANNAH','vessel_MMSI': '366 777 555','vessel_call_sign': 'five Bravo Yankee Uniform five','vessel_type': 'Cargo Vessel','vessel_coordinate_dms': 'nineteen degrees North, ninety-three degrees West', 'compass_direction': 'north west', 'closest_place_name': 'Reyes Hernandez Primera Secci\u00f3n', 'distance_to_nearest_place': 'forty', 'closest_place_country': 'Mexico', 'distance_to_nearest_port': 'ninety-one', 'nearest_port': 'Puerto de Abrigo', 'distance_to_nearest_harbor': 'forty-five', 'nearest_harbor': 'Puerto Dos Bocas', 'digit_by_digit': False, 'can_have_cargo': 'True', 'closest_water_body': None}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Cargo Vessel LEILA. We are at nineteen degrees North, ninety-three degrees West. We are taking on water in our engine room. We need immediate assistance."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SAR BUOY",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "four degrees North, one six eight degrees East",
+            "compass_direction": "south west",
+            "closest_place_name": "Ebon",
+            "distance_to_nearest_place": "three one",
+            "closest_place_country": "Marshall Islands",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Western Central Pacific Ocean - Kiribati"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel SAR BUOY, we are at four degrees North, one six eight degrees East, we have a flooding in our cargo hold, we need a rescue vessel and a helicopter, our nearest place is Ebon, we are three one miles away from it, our nearest port is not available, our nearest harbor is not available, we are a motor vessel SAR BUOY.",
+            "",
+            "    ### Context:",
+            "    {'vessel_name': 'M/V LUNA','vessel_MMSI': 'MMSI number','vessel_call_sign': 'call sign','vessel_type': 'Motor Vessel','vessel_coordinate_dms': 'four degrees North, one six eight degrees East', 'compass_direction':'south west', 'closest_place_name': 'Ebon', 'distance_to_nearest_place': 'three one', 'closest_place_country': 'Marshall Islands', 'distance_to_nearest_port': None, 'nearest_port': None, 'distance_to_nearest_harbor': None, 'nearest_harbor': None, 'digit_by_digit': True, 'can_have_cargo': 'True', 'closest_water_body': 'Western Central Pacific Ocean - Kiribati'}"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel SAR BUOY, we are at four degrees North, one six eight degrees East, we have a flooding in our cargo hold, we need a rescue vessel and a helicopter, our nearest place is Ebon, we are three one miles away from it, our nearest port is not available, our nearest harbor is not available, we are a motor vessel SAR BUOY."
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SETTLED",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seven seven degrees one five minutes North, nine four degrees one five minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Poluostrov Bunge",
+            "distance_to_nearest_place": "three two",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Kara Sea"
+        },
+        "generated_output": [
+            "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+        ],
+        "pruned_output": [
+            ""
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "JACQUELINE SUZANNE",
+            "vessel_MMSI": null,
+            "vessel_call_sign": "one zero three four seven six four",
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-nine degrees North, forty-nine degrees East",
+            "compass_direction": "south east",
+            "closest_place_name": "Severnyy",
+            "distance_to_nearest_place": "eight",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "one hundred twenty-eight",
+            "nearest_port": "Nar Yan-Mar",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Pechorskoye More"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel JACQUELINE SUZANNE. We are taking on water. We are at sixty-nine degrees North, forty-nine degrees East. We are heading south east. We are requesting help. We need a tug to tow us to Nar Yan-Mar. We are a motor vessel. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JAC"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is Motor Vessel JACQUELINE SUZANNE. We are taking on water. We are at sixty-nine degrees North, forty-nine degrees East. We are heading south east. We are requesting help. We need a tug to tow us to Nar Yan-Mar. We are a motor vessel. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JACQUELINE SUZANNE. We are a motor vessel JAC"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "FIORETTO",
+            "vessel_MMSI": "two six one one eight seven six one zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "thirteen degrees North, fifty-five degrees East",
+            "compass_direction": "north east",
+            "closest_place_name": "Ir\u012bsil",
+            "distance_to_nearest_place": "fifty-six",
+            "closest_place_country": "Yemen",
+            "distance_to_nearest_port": "seventy-three",
+            "nearest_port": "Socotra Port",
+            "distance_to_nearest_harbor": null,
+            "nearest_harbor": null,
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our position is thirteen degrees North, fifty-five degrees East, we need immediate assistance, this is Motor Vessel FIORETTO, we are in distress, flooding in cargo hold, our"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "SD2032",
+            "vessel_MMSI": "three three eight four eight six three six three",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "two degrees six decimal eight five minutes North, one one eight degrees four nine minutes East",
+            "compass_direction": "north east",
+            "closest_place_name": "Pulau Bakungan",
+            "distance_to_nearest_place": "six",
+            "closest_place_country": "Indonesia",
+            "distance_to_nearest_port": "one one eight",
+            "nearest_port": "Tanjung Bara Coal Terminal",
+            "distance_to_nearest_harbor": "one three nine",
+            "nearest_harbor": "Pelabuhan Tawau",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": "Celebes Sea"
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SD2032. Our position is two degrees six decimal eight five minutes North, one one eight degrees four nine minutes East. We are a motor vessel. We are taking on water. We are flooding. We need assistance. We need a rescue vessel. We need a helicopter. We need medical assistance. We are sinking. We are going down. We are in danger. We are in distress. We are in trouble. We are in trouble. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. This is motor vessel SD2032. Our position is two degrees six decimal eight five minutes North, one one eight degrees four nine minutes East. We are a motor vessel. We are taking on water. We are flooding. We need assistance. We need a rescue vessel. We need a helicopter. We need medical assistance. We are sinking. We are going down. We are in danger. We are in distress. We are in trouble. We are in trouble. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We need help. We"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "THE LITTLE GENERAL",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Pleasure Craft",
+            "vessel_coordinate_dms": "thirty-two degrees one eight point eight eight minutes North, thirty-one degrees three six point one minutes East",
+            "compass_direction": "north west",
+            "closest_place_name": "Kawa Burun",
+            "distance_to_nearest_place": "forty-eight",
+            "closest_place_country": "Egypt",
+            "distance_to_nearest_port": "fifty-three",
+            "nearest_port": "Damietta Port",
+            "distance_to_nearest_harbor": "seventy-three",
+            "nearest_harbor": "Port Said Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": "Cyprus sea"
+        },
+        "generated_output": [
+            "This is Coast Guard, Coast Guard here, Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding"
+        ],
+        "pruned_output": [
+            "This is Coast Guard, Coast Guard here, Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding. Coast Guard responding, Coast Guard responding"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "CUTTING EDGE",
+            "vessel_MMSI": "two one one seven six eight four three zero",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "sixty-one degrees North, eighty-four degrees West",
+            "compass_direction": "south west",
+            "closest_place_name": "Cape Southampton",
+            "distance_to_nearest_place": "forty-nine",
+            "closest_place_country": "Canada",
+            "distance_to_nearest_port": null,
+            "nearest_port": null,
+            "distance_to_nearest_harbor": "one hundred fifty-three",
+            "nearest_harbor": "Swaffield Harbour",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, May"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, Mayday, May"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "Y9DWLPO",
+            "vessel_MMSI": "nine nine two one nine six zero two three",
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "five three degrees one one point two six minutes South, six eight degrees zero point five five minutes West",
+            "compass_direction": "south east",
+            "closest_place_name": "Pen\u00ednsula El P\u00e1ramo",
+            "distance_to_nearest_place": "one zero",
+            "closest_place_country": "Argentina",
+            "distance_to_nearest_port": "one eight",
+            "nearest_port": "San Sebastian Bay",
+            "distance_to_nearest_harbor": "five two",
+            "nearest_harbor": "Puerto Nuevo",
+            "digit_by_digit": true,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel Y9DWLPO, nine nine two one nine six zero two three, five three degrees one one point two six minutes South, six eight degrees zero point five five minutes West. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday. Motor Vessel Y9DWLPO, nine nine two one nine six zero two three, five three degrees one one point two six minutes South, six eight degrees zero point five five minutes West. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a motor vessel, we are taking on water, we are in distress. We need help, we need help, we need help. We are a"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    },
+    {
+        "input": {
+            "vessel_name": "ARCONA 435 41",
+            "vessel_MMSI": null,
+            "vessel_call_sign": null,
+            "vessel_type": "Motor Vessel",
+            "vessel_coordinate_dms": "seventy-two degrees North, seventy-nine degrees East",
+            "compass_direction": "north west",
+            "closest_place_name": "Mys Leskina",
+            "distance_to_nearest_place": "ten",
+            "closest_place_country": "Russia",
+            "distance_to_nearest_port": "sixty-four",
+            "nearest_port": "Port Dikson",
+            "distance_to_nearest_harbor": "sixty-seven",
+            "nearest_harbor": "Gavan\u2019 Dikson",
+            "digit_by_digit": false,
+            "can_have_cargo": null,
+            "closest_water_body": null
+        },
+        "generated_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel ARCONA 435 41, we are in distress, we are in flooding, we need help, we are in seventy-two degrees North, seventy-nine degrees East, we are in north west direction, our closest place is Mys Leskina, we are ten miles away, our closest country is Russia, our distance to nearest port is sixty-four miles, our nearest port is Port Dikson, our distance to nearest harbor is sixty-seven miles, our nearest harbor is Gavan\u2019 Dikson, we need immediate help, we need rescue vessel, we need helicopter, we need medical assistance, we are in engine room, we are in cargo hold, we are in galley, we are in passenger cabins, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we"
+        ],
+        "pruned_output": [
+            "Mayday, Mayday, Mayday, this is motor vessel ARCONA 435 41, we are in distress, we are in flooding, we need help, we are in seventy-two degrees North, seventy-nine degrees East, we are in north west direction, our closest place is Mys Leskina, we are ten miles away, our closest country is Russia, our distance to nearest port is sixty-four miles, our nearest port is Port Dikson, our distance to nearest harbor is sixty-seven miles, our nearest harbor is Gavan\u2019 Dikson, we need immediate help, we need rescue vessel, we need helicopter, we need medical assistance, we are in engine room, we are in cargo hold, we are in galley, we are in passenger cabins, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we are in distress, we need help, we are in flooding, we need help, we are in distress, we need help, we are in flooding, we"
+        ],
+        "score": 1,
+        "explanation": "Not a conversation between the Coast Guard and the vessel"
+    }
+]
