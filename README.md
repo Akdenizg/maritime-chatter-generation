@@ -4,7 +4,28 @@ Last updated: 10.09.2025
 ---
 # Maritime Chatter Generation
 
+Welcome to the Maritime Chatter Generation repository! This guide will help you set up, fine-tune and work with our synthetic maritime radio chatter generator.
+
 ## 📋 Project Overview
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="main-logo.png">
+    <img src="main-logo.png" alt="Logo" width=70%>
+  </a>
+  <h3 align="center">Developed by <a href="https://github.com/Akdenizg"><strong>Gürsel Akdeniz</strong></a>
+  <h4 align="center">Supervised by <a href="https://github.com/enakilci"><strong>Emin Nakilcioglu</strong></a>
+
+  <p align="center">
+    <a href="#getting-started"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Akdenizg/maritime-chatter-generation/issues/new/choose">Report Bug</a> <!---report bug link to be added--->
+    &middot;
+    <a href="https://github.com/Akdenizg/maritime-chatter-generation/issues/new/choose">Request Feature</a> <!---request feature bug link to be added--->
+  </p>
+</div>
 
 The maritime industry handles over 80% of global trade by volume, but safety is compromised by human errors. This project addresses the lack of open-source Automatic Speech Recognition (ASR) datasets for maritime radio communication by using Large Language Models (LLMs) to generate synthetic maritime distress calls, which can be converted to audio using Text-to-Speech systems.
 
