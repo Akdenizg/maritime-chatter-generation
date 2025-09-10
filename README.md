@@ -1,5 +1,5 @@
 ---
-Written by: Gürsel Akdeniz, Emin Nakilcioglu
+Written by: [Gürsel Akdeniz](https://github.com/Akdenizg), [Emin Nakilcioglu](https://github.com/enakilci)
 Last updated: 10.09.2025
 ---
 # Maritime Chatter Generation
