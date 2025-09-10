@@ -11,8 +11,8 @@ Welcome to the Maritime Chatter Generation repository! This guide will help you 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="main-logo.png">
-    <img src="main-logo.png" alt="Logo" width=70%>
+  <a href="logos/logo-backup-hd.png">
+    <img src="logos/logo-backup-hd.png" alt="Logo" width=70%>
   </a>
   <h3 align="center">Developed by <a href="https://github.com/Akdenizg"><strong>Gürsel Akdeniz</strong></a>
   <h4 align="center">Supervised by <a href="https://github.com/enakilci"><strong>Emin Nakilcioglu</strong></a>
