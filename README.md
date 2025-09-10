@@ -16,8 +16,8 @@ Welcome to the Maritime Chatter Generation repository! This guide will help you 
   </a>
   <h3 align="center">Developed by <a href="https://github.com/Akdenizg"><strong>Gürsel Akdeniz</strong></a>
   <h4 align="center">Supervised by <a href="https://github.com/enakilci"><strong>Emin Nakilcioglu</strong></a>
-  <br />
   <p align="center">
+    <br />
     <a href="#getting-started"><strong>Explore the docs »</strong></a>
     <br />
     <br />
