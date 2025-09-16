@@ -316,14 +316,20 @@ If the ROUGE-L similarity exceeds 0.7, the instance is considered not unique and
 
 Logical coherence is assessed manually using the scores below:
 
-
+| Coherence Level | Description                                             | Points |
+|-----------------|---------------------------------------------------------|--------|
+| Excellent       | Fully coherent, logically structured, all relevant info | 5      |
+| Good            | Mostly coherent, minor logical gaps                     | 4      |
+| Average         | Noticeable inconsistencies                              | 3      |
+| Poor            | Significant logical gaps                                | 2      |
+| Very Poor       | Incoherent and confusing, fails to convey a clear message | 1    |
 
 
 **Evaluation Dataset:** 100 synthetic instances per category are generated and evaluated.
 
 ---
 
-## 8) Limitations
+## 7) Limitations
 
 - Quality limited by source datasets (vessel info, GeoNames)
 - No Coast Guard station data; assumed reachable if ≤ 60 NM from land
