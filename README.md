@@ -31,7 +31,7 @@ The maritime industry handles over 80% of global trade by volume, but safety is 
 
 We use **Llama 3.1 8B** with an adapted [Self-Instruct method](https://doi.org/10.48550/arXiv.2212.10560) to augment manually created seed instances. The model is fine-tuned using Low-Rank Adaptation (LoRA).
 
-Evaluation metrics include format accuracy, information accuracy, and uniqueness.
+Evaluation metrics include format accuracy, information accuracy, uniqueness, and logical coherence.
 
 📘 See `Methodology.md` for detailed technical information.
 
