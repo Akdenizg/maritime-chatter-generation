@@ -29,11 +29,9 @@ Welcome to the Maritime Chatter Generation repository! This guide will help you 
 
 The maritime industry handles over 80% of global trade by volume, but safety is compromised by human errors. This project addresses the lack of open-source Automatic Speech Recognition (ASR) datasets for maritime radio communication by using Large Language Models (LLMs) to generate synthetic maritime distress calls, which can be converted to audio using Text-to-Speech systems.
 
-We use **Llama 3.1 8B** with an adapted [Self-Instruct method](https://doi.org/10.48550/arXiv.2212.10560) to augment manually created seed instances. The model is fine-tuned using:
-- **Low-Rank Adaptation (LoRA)**
-- **Prompt Tuning**
+We use **Llama 3.1 8B** with an adapted [Self-Instruct method](https://doi.org/10.48550/arXiv.2212.10560) to augment manually created seed instances. The model is fine-tuned using Low-Rank Adaptation (LoRA).
 
-Evaluation metrics include format correctness, information accuracy, and uniqueness.
+Evaluation metrics include format accuracy, information accuracy, and uniqueness.
 
 📘 See `Methodology.md` for detailed technical information.
 
@@ -120,18 +118,7 @@ Evaluation metrics include format correctness, information accuracy, and uniquen
 - **Order:** After `generate_instances.py`
 - **Output:** `models/{task_name}/`
 
-### 4. Prompt Tuning
-```python
-# prompt_tuning.ipynb
-```
-- **Purpose:** Fine-tune using prompt tuning technique
-- **Configuration:** 
-  - `model_dir`, `chatter_path`, `task_name`
-  - `prompt_file`, hyperparameters
-- **Order:** Alternative to LoRA, after `generate_instances.py`
-- **Output:** `models/prompt_tuning/{task_name}/`
-
-### 5. Generate Synthetic Chatters (LoRA)
+### 4. Generate Synthetic Chatters (LoRA)
 ```python
 # run_models.py
 ```
@@ -142,18 +129,7 @@ Evaluation metrics include format correctness, information accuracy, and uniquen
 - **Order:** After LoRA fine-tuning
 - **Output:** `synthetic_chatters/{task_name}/`
 
-### 6. Generate Synthetic Chatters (Prompt Tuning)
-```python
-# run_models_prompt_tuning.py
-```
-- **Purpose:** Generate 100 new chatters using prompt tuning adapters
-- **Configuration:** 
-  - `hyperparameters_path` (from prompt tuning output)
-  - `prompt_file`, file paths
-- **Order:** After prompt tuning
-- **Output:** `synthetic_chatters/prompt_tuning/{task_name}/`
-
-### 7. Evaluate LoRA Results
+### 5. Evaluate LoRA Results
 ```python
 # inspect_model.py
 ```
@@ -164,15 +140,6 @@ Evaluation metrics include format correctness, information accuracy, and uniquen
   - `save_dir`
 - **Order:** After generating LoRA chatters
 - **Output:** `evaluation/{task_name}/`
-
-### 8. Evaluate Prompt Tuning Results
-```python
-# inspect_model_prompt_tuning.py
-```
-- **Purpose:** Evaluate chatters from prompt-tuned adapters
-- **Configuration:** Same as above, using prompt-tuned paths
-- **Order:** After generating prompt tuning chatters
-- **Output:** `evaluation/prompt_tuning/{task_name}/`
 
 ---
 
@@ -188,15 +155,12 @@ Evaluation metrics include format correctness, information accuracy, and uniquen
    ```
 
 3. **Model Fine-Tuning**
-   - **Option A (LoRA):** Run `lora_finetune.ipynb`
-   - **Option B (Prompt Tuning):** Run `prompt_tuning.ipynb`
+   - Run `lora_finetune.ipynb`
 
 4. **Generate Synthetic Chatters**
-   - **For LoRA:** `python run_models.py`
-   - **For Prompt Tuning:** `python run_models_prompt_tuning.py`
+   - Run `python run_models.py`
 
 5. **Evaluate Results**
-   - **LoRA Evaluation:** `python inspect_model.py`
-   - **Prompt Tuning Evaluation:** `python inspect_model_prompt_tuning.py`
+   - Run `python inspect_model.py`
 
 ---
